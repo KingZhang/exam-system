@@ -1,0 +1,28 @@
+<section *ngIf="!isSuccess">
+  <section class="subContent">
+      <nz-alert class="alertInfo" nzType="info" nzMessage="提示：问题的难度跟答题所需时间和知识点难度直接挂钩。"></nz-alert>
+      <basic-form
+        #basicForm
+        [formSchema]="questionSchema"
+        (onSubmit)="onSubmit($event)"
+        isUserRequire={true}
+      ></basic-form>
+    </section>
+    <footer class="">
+      <section class="footerContent">
+        <section class="actionFooter">
+          <span class="placeholder"></span>
+          <button nz-button nzType="primary" (click)="basicForm.submit()">提交</button>
+        </section>
+      </section>
+    </footer>
+</section>
+<section class="infoContent" *ngIf="isSuccess">
+  <div>
+    <button nz-button nzType="primary" (click)="backward()"><i class="anticon anticon-left"></i>返回</button>
+  </div>
+  <div class="progress">
+    <nz-progress [nzPercent]="100" nzType="circle"></nz-progress>
+  </div>
+  <div class="info">提交成功</div>
+</section>

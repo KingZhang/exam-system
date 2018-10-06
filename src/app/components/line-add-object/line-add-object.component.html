@@ -1,0 +1,28 @@
+<div class="row">
+  <basic-label [required]="required" [labelStyle]="labelStyle" [text]="title"></basic-label>
+  <button
+    nz-button
+    nzType="primary"
+    (click)="addEvent()"
+  >
+    <i class="anticon anticon-plus"></i>
+    Add
+  </button>
+</div>
+<div class="dynRow row" *ngFor="let itemValue of lineObject; let index = index">
+  <label for="" [ngStyle]="labelStyle"></label>
+  <input
+    nz-input
+    [ngStyle]="{'width': '10%', 'margin-right': '5%'}"
+    [(value)]="itemValue.key"
+    (change)="onItemChange(index, 'key', $event.target.value)"
+  >
+  <textarea
+    nz-input
+    nzAutosize
+    [ngStyle]="{'width': '55%'}"
+    [(value)]="itemValue.description"
+    (change)="onItemChange(index, 'description', $event.target.value)"
+  ></textarea>
+  <i class="anticon anticon-close delete" (click)="deleteItem(index)"></i>
+</div>

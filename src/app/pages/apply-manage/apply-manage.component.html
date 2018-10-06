@@ -1,0 +1,47 @@
+<section *ngIf="!showDetails" class="subContent questionList">
+  <section class="filter">
+    <span class="placeholder"></span>
+    <nz-input-group class="searchInput" nzSuffixIcon="anticon anticon-search">
+      <input type="text" nz-input placeholder="输入问题描述" [(ngModel)]="search" (ngModelChange)="onSearch($event)">
+    </nz-input-group>
+  </section>
+  <question-table [questionList]="filterList" [checkQuestion]="checkQuestion" [showStatus]="true" [deleteQuestion]="deleteQuestion">
+  </question-table>
+</section>
+<section *ngIf="showDetails" class="details">
+  <question-editor #questionEditor showStatus=true [questionList]="questionList" [selectedId]="selectedId" (onSubmit)="passQuestion(selectedId, $event)">
+    <ng-template  #actionFooter let-id="id" let-data="data">
+      <footer class="">
+        <section class="footerContent">
+          <section class="actionFooter">
+            <span class="placeholder"></span>
+            <button nz-button nzType="default" (click)="hideDetails()">
+              <i class="anticon anticon-left"></i>返回</button>
+            <button
+              *ngIf="data.status!=='reject' && data.status!=='pass'"
+              nz-button
+              nzType="primary"
+              (click)="questionEditor.submit()"
+            >通过</button>
+            <button
+              *ngIf="data.status==='reject' || data.status==='pass'"
+              nz-button
+              nz-popconfirm
+              nzType="primary"
+              nzTitle="该问题状态异常，确认通过?"
+              (nzOnConfirm)="questionEditor.submit()"
+            >通过</button>
+            <button
+              [disabled]="data.status==='reject' || data.status==='pass'"
+              nz-button
+              nz-popconfirm
+              nzType="danger"
+              nzTitle="确认废弃该申请?"
+              (nzOnConfirm)="rejectQuestion(id,data)"
+            >废弃</button>
+          </section>
+        </section>
+      </footer>
+    </ng-template>
+  </question-editor>
+</section>

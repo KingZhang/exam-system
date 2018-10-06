@@ -1,0 +1,26 @@
+<section *ngIf="!showDetails" class="subContent questionList">
+    <section class="filter">
+      <span class="placeholder"></span>
+      <nz-input-group class="searchInput" nzSuffixIcon="anticon anticon-search">
+        <input type="text" nz-input placeholder="输入问题描述" [(ngModel)]="search" (ngModelChange)="onSearch($event)">
+      </nz-input-group>
+    </section>
+    <question-table [questionList]="filterList" [checkQuestion]="checkQuestion" [deleteQuestion]="deleteQuestion" [showStatus]=false>
+    </question-table>
+  </section>
+  <section *ngIf="showDetails" class="details">
+    <question-editor #questionEditor [questionList]="questionList" [selectedId]="selectedId" (onSubmit)="updateQuestion(selectedId, $event)">
+      <ng-template  #actionFooter let-id="id" let-data="data">
+        <footer class="">
+          <section class="footerContent">
+            <section class="actionFooter">
+              <span class="placeholder"></span>
+              <button nz-button nzType="default" (click)="hideDetails()">
+                <i class="anticon anticon-left"></i>返回</button>
+              <button nz-button nzType="primary" (click)="questionEditor.submit()">更新</button>
+            </section>
+          </section>
+        </footer>
+      </ng-template>
+    </question-editor>
+  </section>

@@ -1,0 +1,6 @@
+<div class="row">
+  <basic-label [required]="required" [labelStyle]="labelStyle" [text]="title"></basic-label>
+  <nz-select style="width: 70%" [(ngModel)]="controlValue" nzAllowClear (ngModelChange)="onChange($event)">
+    <nz-option *ngFor="let option of optionList" [nzValue]="option.key" [nzLabel]="option.title"></nz-option>
+  </nz-select>
+</div>

@@ -1,0 +1,812 @@
+{
+  "score": [
+    {
+      "username": "admin",
+      "subject": "complex",
+      "degree": "1",
+      "date": "2018/10/5 下午12:42:20",
+      "consume": "13 : 56",
+      "questions": [
+        {
+          "id": 2,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 92,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 108,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 94,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 91,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 89,
+          "judgmentAnswer": "false"
+        },
+        {
+          "id": 96,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 101,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 103,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 102,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 106,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 99,
+          "judgmentAnswer": "false"
+        },
+        {
+          "id": 98,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 104,
+          "judgmentAnswer": "false"
+        },
+        {
+          "id": 107,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 3,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 93,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 1,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 95,
+          "judgmentAnswer": "false"
+        },
+        {
+          "id": 97,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 28,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 14,
+          "choiceAnswer": [
+            "a"
+          ]
+        },
+        {
+          "id": 65,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 82,
+          "choiceAnswer": [
+            "a"
+          ]
+        },
+        {
+          "id": 81,
+          "choiceAnswer": [
+            "d"
+          ]
+        },
+        {
+          "id": 6,
+          "choiceAnswer": [
+            "d"
+          ]
+        },
+        {
+          "id": 67,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 20,
+          "choiceAnswer": [
+            "a"
+          ]
+        },
+        {
+          "id": 83,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 55,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 23,
+          "choiceAnswer": [
+            "d"
+          ]
+        },
+        {
+          "id": 18,
+          "choiceAnswer": [
+            "a"
+          ]
+        },
+        {
+          "id": 48,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 21,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 74,
+          "choiceAnswer": [
+            "a"
+          ]
+        },
+        {
+          "id": 5,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 12,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 8,
+          "choiceAnswer": [
+            "a"
+          ]
+        },
+        {
+          "id": 79,
+          "choiceAnswer": [
+            "d"
+          ]
+        },
+        {
+          "id": 52,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 16,
+          "choiceAnswer": [
+            "d"
+          ]
+        },
+        {
+          "id": 11,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 69,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 26,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 27,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 17,
+          "choiceAnswer": [
+            "a",
+            "c"
+          ]
+        },
+        {
+          "id": 25,
+          "choiceAnswer": [
+            "a",
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 78,
+          "choiceAnswer": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ]
+        },
+        {
+          "id": 84,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 118,
+          "choiceAnswer": [
+            "a",
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 80,
+          "choiceAnswer": [
+            "a",
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 115,
+          "choiceAnswer": [
+            "a",
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 117,
+          "choiceAnswer": [
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 73,
+          "choiceAnswer": [
+            "a"
+          ]
+        },
+        {
+          "id": 116,
+          "choiceAnswer": [
+            "a",
+            "b",
+            "d"
+          ]
+        }
+      ],
+      "score": 76,
+      "id": 6
+    },
+    {
+      "username": "admin",
+      "subject": "complex",
+      "degree": "1",
+      "date": "2018/10/5 下午1:03:12",
+      "consume": "14 : 18",
+      "questions": [
+        {
+          "id": 3,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 95,
+          "judgmentAnswer": "false"
+        },
+        {
+          "id": 89,
+          "judgmentAnswer": "false"
+        },
+        {
+          "id": 108,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 94,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 98,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 96,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 104,
+          "judgmentAnswer": "false"
+        },
+        {
+          "id": 100,
+          "judgmentAnswer": "false"
+        },
+        {
+          "id": 103,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 92,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 99,
+          "judgmentAnswer": "false"
+        },
+        {
+          "id": 107,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 101,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 91,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 97,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 2,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 88,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 106,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 1,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 5,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 52,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 85,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 13,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 55,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 68,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 56,
+          "choiceAnswer": [
+            "a"
+          ]
+        },
+        {
+          "id": 10,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 50,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 57,
+          "choiceAnswer": [
+            "d"
+          ]
+        },
+        {
+          "id": 71,
+          "choiceAnswer": [
+            "d"
+          ]
+        },
+        {
+          "id": 29,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 67,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 26,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 69,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 14,
+          "choiceAnswer": [
+            "a"
+          ]
+        },
+        {
+          "id": 75,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 6,
+          "choiceAnswer": [
+            "d"
+          ]
+        },
+        {
+          "id": 59,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 8,
+          "choiceAnswer": [
+            "d"
+          ]
+        },
+        {
+          "id": 74,
+          "choiceAnswer": [
+            "a"
+          ]
+        },
+        {
+          "id": 23,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 79,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 9,
+          "choiceAnswer": [
+            "d"
+          ]
+        },
+        {
+          "id": 21,
+          "choiceAnswer": [
+            "b"
+          ]
+        },
+        {
+          "id": 17,
+          "choiceAnswer": [
+            "a",
+            "c"
+          ]
+        },
+        {
+          "id": 25,
+          "choiceAnswer": [
+            "d"
+          ]
+        },
+        {
+          "id": 78,
+          "choiceAnswer": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ]
+        },
+        {
+          "id": 118,
+          "choiceAnswer": [
+            "a",
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 84,
+          "choiceAnswer": [
+            "c"
+          ]
+        },
+        {
+          "id": 73,
+          "choiceAnswer": [
+            "a"
+          ]
+        },
+        {
+          "id": 116,
+          "choiceAnswer": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 117,
+          "choiceAnswer": [
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 115,
+          "choiceAnswer": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 80,
+          "choiceAnswer": [
+            "d"
+          ]
+        }
+      ],
+      "score": 100,
+      "id": 7
+    },
+    {
+      "username": "admin",
+      "subject": "complex",
+      "degree": "1",
+      "date": "2018/10/6 上午10:37:28",
+      "consume": "0 : 09",
+      "questions": [
+        {
+          "id": 2,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 108,
+          "judgmentAnswer": "true"
+        },
+        {
+          "id": 96
+        },
+        {
+          "id": 94
+        },
+        {
+          "id": 91
+        },
+        {
+          "id": 89
+        },
+        {
+          "id": 98
+        },
+        {
+          "id": 101
+        },
+        {
+          "id": 100
+        },
+        {
+          "id": 102
+        },
+        {
+          "id": 106
+        },
+        {
+          "id": 99
+        },
+        {
+          "id": 107
+        },
+        {
+          "id": 103
+        },
+        {
+          "id": 92
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 90
+        },
+        {
+          "id": 93
+        },
+        {
+          "id": 95
+        },
+        {
+          "id": 88
+        },
+        {
+          "id": 68
+        },
+        {
+          "id": 29
+        },
+        {
+          "id": 23
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 49
+        },
+        {
+          "id": 26
+        },
+        {
+          "id": 53
+        },
+        {
+          "id": 24
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 71
+        },
+        {
+          "id": 55
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 76
+        },
+        {
+          "id": 52
+        },
+        {
+          "id": 69
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 64
+        },
+        {
+          "id": 28
+        },
+        {
+          "id": 59
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 79
+        },
+        {
+          "id": 82
+        },
+        {
+          "id": 12
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 118
+        },
+        {
+          "id": 17
+        },
+        {
+          "id": 25
+        },
+        {
+          "id": 84
+        },
+        {
+          "id": 78
+        },
+        {
+          "id": 115
+        },
+        {
+          "id": 117
+        },
+        {
+          "id": 80
+        },
+        {
+          "id": 116
+        },
+        {
+          "id": 73
+        }
+      ],
+      "score": 2,
+      "id": 8
+    }
+  ]
+}

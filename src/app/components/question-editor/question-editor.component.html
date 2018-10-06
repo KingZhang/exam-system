@@ -1,0 +1,14 @@
+<section class="infoContent">
+  <basic-form
+    #basicForm
+    [formSchema]="questionSchema"
+    (onSubmit)="submitEvent($event)"
+    isUserRequire={false}
+  ></basic-form>
+  <ng-container *ngTemplateOutlet="actionFooter; context: {id: selectedId, data: questionSchema.data}"></ng-container>
+</section>
+<!-- 申请状态 -->
+<section class="status" *ngIf="showStatus">
+  <nz-progress *ngIf="questionSchema.data.status==='pass'" [nzPercent]="100" nzType="circle" [nzFormat]="getPassFormat"></nz-progress>
+  <nz-progress *ngIf="questionSchema.data.status==='reject'" [nzPercent]="100" nzType="circle" [nzFormat]="getRejectFormat"></nz-progress>
+</section>

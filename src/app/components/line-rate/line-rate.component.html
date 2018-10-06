@@ -1,0 +1,4 @@
+<div class="row">
+  <basic-label [required]="required" [labelStyle]="labelStyle" [text]="title"></basic-label>
+  <nz-rate [ngModel]="value" (ngModelChange)="updateValue($event)"></nz-rate>
+</div>

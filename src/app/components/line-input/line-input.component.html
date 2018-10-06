@@ -1,0 +1,18 @@
+<div class="row">
+  <basic-label [required]="required" [labelStyle]="labelStyle" [text]="title"></basic-label>
+  <input
+    nz-input
+    *ngIf="!isTextarea"
+    [ngStyle]="inputStyle"
+    [(value)]="controlValue"
+    (input)="updateValue($event.target.value)"
+  >
+  <textarea
+    nz-input
+    *ngIf="isTextarea"
+    nzAutosize
+    [ngStyle]="inputStyle"
+    [(value)]="controlValue"
+    (input)="updateValue($event.target.value)"
+  ></textarea>
+</div>

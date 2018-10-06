@@ -1,0 +1,62 @@
+<nz-layout class="page">
+  <nz-sider nzCollapsible [(nzCollapsed)]="isCollapsed">
+    <div class="logo">
+        <i class="anticon anticon-zhihu"></i>
+    </div>
+    <ul nz-menu [nzTheme]="'dark'" [nzMode]="'inline'" [nzInlineCollapsed]="isCollapsed">
+      <li nz-menu-item routerLink="exam" [nzSelected]="selectMenu==='exam'">
+        <span>
+          <i class="anticon anticon-book"></i>
+          <span class="nav-text">考试</span>
+        </span>
+      </li>
+      <li nz-menu-item routerLink="score" [nzSelected]="selectMenu==='score'">
+        <span>
+          <i class="anticon anticon-dot-chart"></i>
+          <span class="nav-text">成绩历史</span>
+        </span>
+      </li>
+      <li nz-menu-item *ngIf="isAdmin" routerLink="scoreManage" [nzSelected]="selectMenu==='scoreManage'">
+        <span>
+          <i class="anticon anticon-line-chart"></i>
+          <span class="nav-text">成绩管理</span>
+        </span>
+      </li>
+      <li nz-menu-item routerLink="apply" [nzSelected]="selectMenu==='apply'">
+        <span>
+          <i class="anticon anticon-plus-circle"></i>
+          <span class="nav-text">提交题目</span>
+        </span>
+      </li>
+      <li nz-menu-item *ngIf="isAdmin" routerLink="applyManage" [nzSelected]="selectMenu==='applyManage'">
+        <span>
+          <i class="anticon anticon-schedule"></i>
+          <span class="nav-text">申请管理</span>
+        </span>
+      </li>
+      <li nz-menu-item *ngIf="isAdmin" routerLink="questions" [nzSelected]="selectMenu==='questions'">
+        <span>
+          <i class="anticon anticon-barcode"></i>
+          <span class="nav-text">题目管理</span>
+        </span>
+      </li>
+    </ul>
+  </nz-sider>
+  <nz-layout>
+    <nz-header class="mainHeader" style="padding:0;">
+      <i class="anticon trigger" [class.anticon-menu-fold]="!isCollapsed" [class.anticon-menu-unfold]="isCollapsed" (click)="isCollapsed=!isCollapsed"></i>
+      <span class="pageTitle">知了</span>
+      <span class="logout">
+        <span class="username">{{username}}</span>
+        <i class="anticon anticon-logout" (click)="logout()" title="logout"></i>
+      </span>
+    </nz-header>
+    <nz-content>
+        <router-outlet></router-outlet>
+    </nz-content>
+    <!-- <nz-footer style="text-align: center;">Kingzhang ©2018</nz-footer> -->
+  </nz-layout>  
+</nz-layout>
+<ng-template #trigger>
+  <i class="anticon anticon-up"></i>
+</ng-template>

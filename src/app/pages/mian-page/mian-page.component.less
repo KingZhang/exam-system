@@ -1,0 +1,43 @@
+
+.page {
+    height: 100%;
+    .ant-layout-sider {
+      z-index: 10;
+    }
+    .mainHeader {
+        display: flex;
+        text-align: center;
+        .pageTitle {
+            flex-grow: 1;
+            font-size: 2rem;
+            color: #595959;
+        }
+        .username {
+          font-size: 1.4rem;
+          color: #0462b9;
+          font-weight: bold;
+        }
+        /* :host ::ng-deep  */i {
+          font-size: 1.5rem;
+          line-height: 4rem;
+          padding: 0 2rem;
+          cursor: pointer;
+          transition: color 0.3s;
+        }
+        
+        /* :host ::ng-deep  */i:hover {
+          color: #1890ff;
+        }
+    }
+    
+    /* :host ::ng-deep  */.logo {
+      height: 2rem;
+      margin: 1rem;
+      text-align: center;
+      i {
+        color: #fff;
+        font-size: 2rem;
+      }
+    }
+}
+

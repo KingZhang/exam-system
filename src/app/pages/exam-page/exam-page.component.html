@@ -1,0 +1,80 @@
+<section *ngIf="status==='ready'">
+  <section class="subContent">
+      <nz-alert class="alertInfo" nzType="info" nzMessage="提示：难度三以上的考试包含简答题和编程题。"></nz-alert>
+      <basic-form
+        #basicForm
+        [formSchema]="examSchema"
+        (onSubmit)="startExam($event)"
+        isUserRequire={true}
+      ></basic-form>
+  </section>
+  <footer class="">
+    <section class="footerContent">
+      <section class="actionFooter">
+        <span class="placeholder"></span>
+        <button nz-button nzType="primary" (click)="basicForm.submit()">开始考试</button>
+      </section>
+    </section>
+  </footer>
+</section>
+<section class="" *ngIf="status==='started'">
+  <section class="examContent">
+    <section class="questionList">
+      <ul>
+        <li *ngFor="let question of examQuestion; let i = index;"
+          [class.selected]="currentIndex===i"
+          [class.completed]="!!question.choiceAnswer || !!question.judgmentAnswer || !!question.textAnswer || !!question.programAnswer"
+          (click)="selectQuestion(i)">
+          题目{{i + 1}}
+        </li>
+      </ul>
+    </section>
+    <section class="questionInfo">
+      <nav class="pageNav">
+        <a class="prev" (click)="preQuestion()" [class.hide]="currentIndex===0">
+          <span class="icon-wrap"></span>
+          <h3 class="left"><strong>Previous</strong></h3>
+        </a>
+        <a class="next" (click)="nextQuestion()" [class.hide]="currentIndex===examQuestion.length-1">
+          <span class="icon-wrap"></span>
+          <h3 class="right"><strong>Next</strong></h3>
+        </a>
+      </nav>
+      <section class="questionContent">
+        <question-answer [question]="examQuestion[currentIndex]" [index]="currentIndex" (updateAnswer)="updateAnswer($event)"></question-answer>
+      </section>
+    </section>
+  </section>
+  <footer class="">
+    <section class="footerContent">
+      <section class="actionFooter">
+        <span class="placeholder"></span>
+        <button
+          nz-button
+          nz-popconfirm
+          nzType="danger"
+          nzTitle="确认取消考试?"
+          (nzOnConfirm)="cancel()"
+        >退出</button>
+        <button
+          nz-button
+          nz-popconfirm
+          nzType="primary"
+          nzTitle="确认交卷?"
+          (nzOnConfirm)="checkConfirm()"
+        >交卷</button>
+        <span class="timer">剩余时间：{{timerStr}}</span>
+      </section>
+    </section>
+  </footer>
+</section>
+
+<section class="infoContent completed" *ngIf="status==='completed'">
+  <div>
+    <button nz-button nzType="primary" (click)="cancel()"><i class="anticon anticon-left"></i>返回</button>
+  </div>
+  <div class="progress">
+    <nz-progress [nzPercent]="100" nzType="circle"></nz-progress>
+  </div>
+  <div class="info">提交成功</div>
+</section>

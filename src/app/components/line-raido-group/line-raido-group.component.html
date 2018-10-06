@@ -1,0 +1,6 @@
+<div class="row">
+  <basic-label [required]="required" [labelStyle]="labelStyle" [text]="title"></basic-label>
+  <nz-radio-group [(ngModel)]="controlValue" (ngModelChange)="updateValue($event)">
+    <label *ngFor="let item of titleMap" nz-radio [nzValue]="item.key">{{item.title}}</label>
+  </nz-radio-group>
+</div>

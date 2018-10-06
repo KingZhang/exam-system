@@ -1,0 +1,4801 @@
+{
+  "questions": [
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "judgment",
+      "description": "HTML表格在默认情况下有边框",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 2
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "judgment",
+      "description": "HTML标记符不区分大小写",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 1
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "judgment",
+      "description": "iframe是一种能在同一个浏览器窗口中显示多个网页的技术。",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 3
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "下列元素中，为行内元素的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "div"
+        },
+        {
+          "key": "b",
+          "description": "span"
+        },
+        {
+          "key": "c",
+          "description": "p"
+        },
+        {
+          "key": "d",
+          "description": "h1"
+        }
+      ],
+      "choiceAnswer": [
+        "b"
+      ],
+      "point": "行内元素",
+      "user": "admin",
+      "id": 5
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "judgment",
+      "description": "在HTML中，与表格一样，表单也能嵌套。",
+      "judgmentAnswer": "false",
+      "user": "admin",
+      "id": 4
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "需要创建一个多选框，且和文本关联起来（单击文本就像单击核选框一样）。下列 HTML 代码中，正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "<input type=\"checkbox\" /><label>记住我</label> "
+        },
+        {
+          "key": "b",
+          "description": "<input type=\"checkbox\" /><label for=\"checkbox\">记住我</label> "
+        },
+        {
+          "key": "c",
+          "description": "<input type=\"checkbox\" id=\"c1\" /><label>记住我</label> "
+        },
+        {
+          "key": "d",
+          "description": "<input type=\"checkbox\" id=\"c1\" /><label for=\"c1\">记住我</label>"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "point": "label for",
+      "user": "admin",
+      "id": 6
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "single",
+      "description": "<style type=\"text/css\">\n        p{color:Red;font-size:15pt;}\n    </style>\n同时，有 html 代码如下所示：\n    <p style=\"background-color:gray;color:Blue;\">p text</p>\n段落中的文本”p text“的最终显示效果是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "蓝色文本，字体大小为 15pt，背景色为灰色 "
+        },
+        {
+          "key": "b",
+          "description": "蓝色文本，默认字体大小，背景色为灰色 "
+        },
+        {
+          "key": "c",
+          "description": "蓝色文本，字体大小为 15pt，无背景色 "
+        },
+        {
+          "key": "d",
+          "description": "红色文本，字体大小为 15pt，无背景色"
+        }
+      ],
+      "choiceAnswer": [
+        "a"
+      ],
+      "user": "admin",
+      "id": 7
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "下列引用外部样式表 style1.css 的语句中，正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "<link src=\"style1.css\" type=\"text/css\" rel=\"stylesheet\" /> "
+        },
+        {
+          "key": "b",
+          "description": "<link href=\"style1.css\" type=\"css\"  /> "
+        },
+        {
+          "key": "c",
+          "description": "<link src=\"style1.css\" type=\"text/css\"  /> "
+        },
+        {
+          "key": "d",
+          "description": "<link href=\"style1.css\" type=\"text/css\" rel=\"stylesheet\" />"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "user": "admin",
+      "id": 8
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "single",
+      "description": ".A >.B { font-weight:bold;}",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "<a class=\"A\"><span><a class=\"B\">文本C</a></span></a> "
+        },
+        {
+          "key": "b",
+          "description": "<a class=\"B\">文本B</a> "
+        },
+        {
+          "key": "c",
+          "description": "<p class=\"A\"><a class=\"B\">文本C</a></p> "
+        },
+        {
+          "key": "d",
+          "description": "<p class=\"B\"><a class=\"A\">文本C</a></p>"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 10
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "single",
+      "description": "查看如下 html 代码：\n    <div style=\"float:left;\">div text</div>\n    <p style=\"clear:left;\">p text</p>\n此代码在页面上的显示效果为",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "<div> 中的文本和 <p> 中的文本分两行显示，且文本左对齐 "
+        },
+        {
+          "key": "b",
+          "description": "<div> 中的文本和 <p> 中的文本在一行上显示，且文本左对齐 "
+        },
+        {
+          "key": "c",
+          "description": "<div> 中的文本和 <p> 中的文本分两行显示，且文本右对齐 "
+        },
+        {
+          "key": "d",
+          "description": "<div> 中的文本和 <p> 中的文本在一行上显示，且文本右对齐"
+        }
+      ],
+      "choiceAnswer": [
+        "a"
+      ],
+      "user": "admin",
+      "id": 11
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "single",
+      "description": "    div.parent  {\n        width:100px;\n        height:70px;\n        border:1px solid gray;\n    }\n    div.child  {\n        width:80px;\n        height:30px;\n        border:1px solid black;\n        background-color:silver;\n    }\n同时，有 html 代码如下所示：\n    <body>\n        <div class=\"parent\">\n            <div class=\"child\">1</div>\n            <div class=\"child\" style=\"position:absolute;top:15px;\">2</div>\n        </div>\n    </body>\n第二个 div 在页面上的最终位置是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "其上边框距离其父元素（div） 为 15 px 距离 "
+        },
+        {
+          "key": "b",
+          "description": "其上边框距离 body 元素为 15 px 距离 "
+        },
+        {
+          "key": "c",
+          "description": "其上边框距离其原有位置为 15 px 距离 "
+        },
+        {
+          "key": "d",
+          "description": "使用默认位置，定位并未发生改变"
+        }
+      ],
+      "choiceAnswer": [
+        "b"
+      ],
+      "user": "admin",
+      "id": 12
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "查看如下 JavaScript 代码（用于得到录入数值的整数部分）：\n    function getInt() {\n        var str = document.getElementById(\"txtData\").value;\n        if ( <<  插入代码1  >> )\n            alert(\"请录入数值\");\n        else {\n            var data = <<  插入代码2  >>;\n            alert(\"整数部分为：\" + data);\n        }\n    }\n为实现所需功能，”插入代码1“和”插入代码2“处所需要的代码分别是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "isNaN(str) 和 parseFloat(str) "
+        },
+        {
+          "key": "b",
+          "description": "!isNaN(str) 和 parseFloat(str) "
+        },
+        {
+          "key": "c",
+          "description": "isNaN(str) 和 parseInt(str) "
+        },
+        {
+          "key": "d",
+          "description": "!isNaN(str) 和 parseInt(str)"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 13
+    },
+    {
+      "subject": "js",
+      "degree": "5",
+      "type": "single",
+      "description": "阅读如下代码：\n    const a1 = [1, 2, 12];\n    const a2 = [4, 23];\n    a1.concat(a2);\n    a1.sort();\n    alert(a1.join(\",\"));\n代码运行后，alert 方法弹出的内容为",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "1,12,2"
+        },
+        {
+          "key": "b",
+          "description": "12;2;1"
+        },
+        {
+          "key": "c",
+          "description": "1,2,4,12,23"
+        },
+        {
+          "key": "d",
+          "description": "1;12;2;23;4"
+        }
+      ],
+      "choiceAnswer": [
+        "a"
+      ],
+      "point": "数组方法",
+      "user": "admin",
+      "id": 15
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "阅读如下代码：\n    var str1 = \"abc123def456\";\n    var str2 = str1.replace(/\\d+/gi, \"*\");\n代码运行后，str2 的内容为",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "abc***def "
+        },
+        {
+          "key": "b",
+          "description": "abc***def*** "
+        },
+        {
+          "key": "c",
+          "description": "abc*def "
+        },
+        {
+          "key": "d",
+          "description": "abc*def*"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "point": "正则表达式",
+      "user": "admin",
+      "id": 16
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "single",
+      "description": "查看如下 JavaScript 代码：\n    const a = \"10\";\n    const  b = 10;\n    if (a == b)\n        alert(\"equal\");\n    if (a === b)\n        alert(\"same\");\n此代码运行后，效果为",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "只弹出\"equal\""
+        },
+        {
+          "key": "b",
+          "description": "只弹出\"same\""
+        },
+        {
+          "key": "c",
+          "description": "先弹出\"equal\"，再弹出\"same\" "
+        },
+        {
+          "key": "d",
+          "description": "没有弹出显示"
+        }
+      ],
+      "choiceAnswer": [
+        "a"
+      ],
+      "user": "admin",
+      "id": 14
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "multiple",
+      "description": "<body>\n        <form>\n            <input type=\"text\" id=\"t1\" />\n        </form>\n    </body>\n下列选项中，能向文本框中写入文本的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "document.getElementById(\"t1\").value = \"aa\"; "
+        },
+        {
+          "key": "b",
+          "description": "document.getElementById(\"t1\").innerHTML = \"bb\"; "
+        },
+        {
+          "key": "c",
+          "description": "document.getElementsByTagName(\"input\")[0].value = \"cc\"; "
+        },
+        {
+          "key": "d",
+          "description": "document.getElementsByTagName(\"input\")[0].innerHTML = \"dd\";"
+        }
+      ],
+      "choiceAnswer": [
+        "a",
+        "c"
+      ],
+      "user": "admin",
+      "id": 17
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "HTML 页面上有一个超链接，要实现当鼠标移入该超级链接时，超级链接的文本背景色变为灰色。下列选项中，能实现此功能的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "<a href=\"#\" onmouseover=\"this.style.background.color='gray';\">注册</a> "
+        },
+        {
+          "key": "b",
+          "description": "<a href=\"#\" onmouseout=\"this.style.background-color='gray';\">注册</a> "
+        },
+        {
+          "key": "c",
+          "description": "<a href=\"#\" onmouseover=\"this.style.backgroundColor=gray;\">注册</a>"
+        },
+        {
+          "key": "d",
+          "description": "<a href=\"#\" onmouseover=\"this.style.backgroundColor='gray';\">注册</a>"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "user": "admin",
+      "id": 18
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "multiple",
+      "description": "有数组定义如下：\n     var a1 = [1, 14, 4, 12, 23];\n现需要实现对数组 a1 中的内容按照数值大小升序排列，下列代码中，错误的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "a1.sort(new Function(\"a\", \"b\", \"return a-b;\")); "
+        },
+        {
+          "key": "b",
+          "description": "a1.sort(function (a, b) { return a - b; }); "
+        },
+        {
+          "key": "c",
+          "description": "a1.sort(new function (a, b) { return a - b; }); "
+        },
+        {
+          "key": "d",
+          "description": "a1.sort(sortFunc);     function sortFunc(a, b) {         return a - b; }"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 19
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "single",
+      "description": "html 页面上有一个 id 值为 s1 的 <select> 元素，现需要使用 JavaScript 代码清空其所有选项，下列选项中，错误的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "document.getElementById(\"s1\").options.length = 0; "
+        },
+        {
+          "key": "b",
+          "description": "document.getElementById(\"s1\") = null; "
+        },
+        {
+          "key": "c",
+          "description": "while (document.getElementById(\"s1\").options.length > 0) {\n         document.getElementById(\"s1\").remove(0);\n  } "
+        },
+        {
+          "key": "d",
+          "description": "var selObj = document.getElementById(\"s1\");\n   while (selObj.childNodes.length > 0) {\n             selObj.removeChild(selObj.lastChild);"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "user": "admin",
+      "id": 22
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "现需要在页面上实现动态时钟的显示，其 html 代码如下：\n    <body onload=\"initialClock();\">\n        <span id=\"mySpan\"></span>\n    </body>\n相应的 JavaScript 代码如下：\n    function initialClock() {\n        //<< 插入代码 >>;       \n    };\n\n    function timerFunc() {\n        var v = new Date()\n        document.getElementById(\"mySpan\").innerHTML = v.toLocaleTimeString();\n    }\n为实现所需功能，”插入代码“处所需要的代码是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "window.setInterval(timerFunc,1000); "
+        },
+        {
+          "key": "b",
+          "description": "window.setInterval(timerFunc(),1000); "
+        },
+        {
+          "key": "c",
+          "description": "window.setTimeout(timerFunc,1000); "
+        },
+        {
+          "key": "d",
+          "description": "window.setTimeout(timerFunc(),1000);"
+        }
+      ],
+      "choiceAnswer": [
+        "a"
+      ],
+      "user": "admin",
+      "id": 20
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "single",
+      "description": "下列选项中，不是 window 对象的子对象的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "location "
+        },
+        {
+          "key": "b",
+          "description": "arguments"
+        },
+        {
+          "key": "c",
+          "description": "screen "
+        },
+        {
+          "key": "d",
+          "description": "length"
+        }
+      ],
+      "choiceAnswer": [
+        "b"
+      ],
+      "user": "admin",
+      "id": 21
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "single",
+      "description": "下列哪个样式定义后,行内(非块状)元素可以定义宽度和高度",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "display:inline"
+        },
+        {
+          "key": "b",
+          "description": "display:none"
+        },
+        {
+          "key": "c",
+          "description": "display:block"
+        },
+        {
+          "key": "d",
+          "description": "display:inheric"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 24
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "single",
+      "description": "html 页面上有一个 id 值为 s1 的 <select> 元素，现需要使用 JavaScript 代码向列表中添加一个选项（<option>元素），下列选项中，错误的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "document.getElementById(\"s1\").appendChild(new Option(\"aa\", 18)); "
+        },
+        {
+          "key": "b",
+          "description": "document.getElementById(\"s1\").add(new Option(\"bb\", 18)); "
+        },
+        {
+          "key": "c",
+          "description": "document.getElementById(\"s1\").options[document.getElementById(\"s1\").options.length] = new Option(\"cc\", 18); "
+        },
+        {
+          "key": "d",
+          "description": "document.getElementById(\"s1\").options.appendChild(new Option(\"dd\", 18));"
+        }
+      ],
+      "choiceAnswer": [
+        "b"
+      ],
+      "user": "admin",
+      "id": 23
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "answer",
+      "description": "document.write和innerHTML的区别",
+      "textAnswer": "document.write是直接写入到页面的内容流，如果在写之前没有调用document.open, 浏览器会自动调用open。每次写完关闭之后重新调用该函数，会导致页面被重写。\n\ninnerHTML则是DOM页面元素的一个属性，代表该元素的html内容。你可以精确到某一个具体的元素来进行更改。如果想修改document的内容，则需要修改document.documentElement.innerElement。\n\ninnerHTML将内容写入某个DOM节点，不会导致页面全部重绘\ninnerHTML很多情况下都优于document.write，其原因在于其允许更精确的控制要刷新页面的那一个部分。",
+      "user": "admin",
+      "id": 35
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "answer",
+      "description": "请描述一下 cookies sessionStorage和localstorage区别",
+      "textAnswer": "相同点：都存储在客户端\n不同点：1.存储大小\n\n· cookie数据大小不能超过4k。\n\n· sessionStorage和localStorage 虽然也有存储大小的限制，但比cookie大得多，可以达到5M或更大。\n\n2.有效时间\n\n· localStorage    存储持久数据，浏览器关闭后数据不丢失除非主动删除数据；\n\n· sessionStorage  数据在当前浏览器窗口关闭后自动删除。\n\n· cookie          设置的cookie过期时间之前一直有效，即使窗口或浏览器关闭\n\n3. 数据与服务器之间的交互方式\n\n· cookie的数据会自动的传递到服务器，服务器端也可以写cookie到客户端\n\n· sessionStorage和localStorage不会自动把数据发给服务器，仅在本地保存。\n\n\n\n共同点：用于浏览器端存储的缓存数据\n\n不同点：\n\n(1)、存储内容是否发送到服务器端：当设置了Cookie后，数据会发送到服务器端，造成一定的宽带浪费；\n\n        web storage,会将数据保存到本地，不会造成宽带浪费；\n\n(2)、数据存储大小不同：Cookie数据不能超过4K,适用于会话标识；web storage数据存储可以达到5M;\n\n(3)、数据存储的有效期限不同：cookie只在设置了Cookid过期时间之前一直有效，即使关闭窗口或者浏览器；\n\n        sessionStorage,仅在关闭浏览器之前有效；localStorage,数据存储永久有效；\n\n(4)、作用域不同：cookie和localStorage是在同源同窗口中都是共享的；sessionStorage不在不同的浏览器窗口中共享，即使是同一个页面；",
+      "user": "admin",
+      "id": 33
+    },
+    {
+      "subject": "js",
+      "degree": "5",
+      "type": "answer",
+      "description": "谈谈垃圾回收机制方式及内存管理",
+      "textAnswer": "回收机制方式\n\n1、定义和用法：垃圾回收机制(GC:Garbage Collection),执行环境负责管理代码执行过程中使用的内存。\n\n2、原理：垃圾收集器会定期（周期性）找出那些不在继续使用的变量，然后释放其内存。但是这个过程不是实时的，因为其开销比较大，所以垃圾回收器会按照固定的时间间隔周期性的执行。\n\n3、实例如下：\n\nfunction fn1() {\n\n    var obj = {name: 'hanzichi', age: 10};\n\n}\n\nfunction fn2() {\n\n    var obj = {name:'hanzichi', age: 10};\n\n   return obj;\n\n}var a = fn1();var b = fn2();\n\nfn1中定义的obj为局部变量，而当调用结束后，出了fn1的环境，那么该块内存会被js引擎中的垃圾回收器自动释放；在fn2被调用的过程中，返回的对象被全局变量b所指向，所以该块内存并不会被释放。\n\n 4、垃圾回收策略：标记清除(较为常用)和引用计数。\n\n标记清除：\n\n　　定义和用法：当变量进入环境时，将变量标记\"进入环境\"，当变量离开环境时，标记为：\"离开环境\"。某一个时刻，垃圾回收器会过滤掉环境中的变量，以及被环境变量引用的变量，剩下的就是被视为准备回收的变量。\n\n　　到目前为止，IE、Firefox、Opera、Chrome、Safari的js实现使用的都是标记清除的垃圾回收策略或类似的策略，只不过垃圾收集的时间间隔互不相同。\n\n引用计数：\n\n　　定义和用法：引用计数是跟踪记录每个值被引用的次数。\n\n　　基本原理：就是变量的引用次数，被引用一次则加1，当这个引用计数为0时，被视为准备回收的对象。",
+      "user": "admin",
+      "id": 40
+    },
+    {
+      "subject": "js",
+      "degree": "5",
+      "type": "answer",
+      "description": "JS哪些操作会造成内存泄露",
+      "textAnswer": "1）意外的全局变量引起的内存泄露\n\nfunction leak(){  \n\n  leak=\"xxx\";//leak成为一个全局变量，不会被回收  \n\n}\n\n2）闭包引起的内存泄露\n\n3）3）没有清理的DOM元素引用\n\n4）被遗忘的定时器或者回调 5）子元素存在引起的内存泄露",
+      "user": "admin",
+      "id": 39
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "answer",
+      "description": "常见的HTTP状态码",
+      "textAnswer": "2开头 （请求成功）表示成功处理了请求的状态代码。\n\n200   （成功）  服务器已成功处理了请求。 通常，这表示服务器提供了请求的网页。 \n201   （已创建）  请求成功并且服务器创建了新的资源。 \n202   （已接受）  服务器已接受请求，但尚未处理。 \n203   （非授权信息）  服务器已成功处理了请求，但返回的信息可能来自另一来源。 \n204   （无内容）  服务器成功处理了请求，但没有返回任何内容。 \n205   （重置内容） 服务器成功处理了请求，但没有返回任何内容。\n206   （部分内容）  服务器成功处理了部分 GET 请求。\n\n3开头 （请求被重定向）表示要完成请求，需要进一步操作。 通常，这些状态代码用来重定向。\n\n300   （多种选择）  针对请求，服务器可执行多种操作。 服务器可根据请求者 (user agent) 选择一项操作，或提供操作列表供请求者选择。 \n301   （永久移动）  请求的网页已永久移动到新位置。 服务器返回此响应（对 GET 或 HEAD 请求的响应）时，会自动将请求者转到新位置。\n302   （临时移动）  服务器目前从不同位置的网页响应请求，但请求者应继续使用原有位置来进行以后的请求。\n303   （查看其他位置） 请求者应当对不同的位置使用单独的 GET 请求来检索响应时，服务器返回此代码。\n304   （未修改） 自从上次请求后，请求的网页未修改过。 服务器返回此响应时，不会返回网页内容。 \n305   （使用代理） 请求者只能使用代理访问请求的网页。 如果服务器返回此响应，还表示请求者应使用代理。 \n307   （临时重定向）  服务器目前从不同位置的网页响应请求，但请求者应继续使用原有位置来进行以后的请求。\n\n4开头 （请求错误）这些状态代码表示请求可能出错，妨碍了服务器的处理。\n\n400   （错误请求） 服务器不理解请求的语法。 \n401   （未授权） 请求要求身份验证。 对于需要登录的网页，服务器可能返回此响应。 \n403   （禁止） 服务器拒绝请求。\n404   （未找到） 服务器找不到请求的网页。\n405   （方法禁用） 禁用请求中指定的方法。 \n406   （不接受） 无法使用请求的内容特性响应请求的网页。 \n407   （需要代理授权） 此状态代码与 401（未授权）类似，但指定请求者应当授权使用代理。\n408   （请求超时）  服务器等候请求时发生超时。 \n409   （冲突）  服务器在完成请求时发生冲突。 服务器必须在响应中包含有关冲突的信息。 \n410   （已删除）  如果请求的资源已永久删除，服务器就会返回此响应。 \n411   （需要有效长度） 服务器不接受不含有效内容长度标头字段的请求。 \n412   （未满足前提条件） 服务器未满足请求者在请求中设置的其中一个前提条件。 \n413   （请求实体过大） 服务器无法处理请求，因为请求实体过大，超出服务器的处理能力。 \n414   （请求的 URI 过长） 请求的 URI（通常为网址）过长，服务器无法处理。 \n415   （不支持的媒体类型） 请求的格式不受请求页面的支持。 \n416   （请求范围不符合要求） 如果页面无法提供请求的范围，则服务器会返回此状态代码。 \n417   （未满足期望值） 服务器未满足\"期望\"请求标头字段的要求。\n\n5开头（服务器错误）这些状态代码表示服务器在尝试处理请求时发生内部错误。 这些错误可能是服务器本身的错误，而不是请求出错。\n\n500   （服务器内部错误）  服务器遇到错误，无法完成请求。 \n501   （尚未实施） 服务器不具备完成请求的功能。 例如，服务器无法识别请求方法时可能会返回此代码。 \n502   （错误网关） 服务器作为网关或代理，从上游服务器收到无效响应。 \n503   （服务不可用） 服务器目前无法使用（由于超载或停机维护）。 通常，这只是暂时状态。 \n504   （网关超时）  服务器作为网关或代理，但是没有及时从上游服务器收到请求。 \n505   （HTTP 版本不受支持） 服务器不支持请求中所用的 HTTP 协议版本。",
+      "user": "admin",
+      "id": 38
+    },
+    {
+      "subject": "css",
+      "degree": "4",
+      "type": "answer",
+      "description": "css选择器有哪些，选择器的权重的优先级",
+      "textAnswer": "选择器类型\n\n1、ID　　#id\n\n2、class　　.class\n\n3、标签　　p\n\n4、通用　　*\n\n5、属性　　[type=\"text\"]\n\n6、伪类　　：hover\n\n7、伪元素　　::first-line\n\n8、子选择器、相邻选择器\n\n三、权重计算规则\n\n1. 第一等：代表内联样式，如: style=””，权值为1000。\n\n2. 第二等：代表ID选择器，如：#content，权值为0100。\n\n3. 第三等：代表类，伪类和属性选择器，如.content，权值为0010。\n\n4. 第四等：代表类型选择器和伪元素选择器，如div p，权值为0001。\n\n5. 通配符、子选择器、相邻选择器等的。如*、>、+,权值为0000。\n\n6. 继承的样式没有权值。",
+      "user": "admin",
+      "id": 37
+    },
+    {
+      "subject": "css",
+      "degree": "4",
+      "type": "answer",
+      "description": "box-sizing常用的属性有哪些？分别有什么作用？",
+      "textAnswer": "属性值\n\n· box-sizing：content-box\n\n· box-sizing：border-box\n\n· box-sizing：inherit\n\n \n\ncontent-box\n\n· 这是box-sizing的默认属性值\n\n· 是CSS2.1中规定的宽度高度的显示行为\n\n· 在CSS中定义的宽度和高度就对应到元素的内容框\n\n· 在CSS中定义的宽度和高度之外绘制元素的内边距和边框\n\n \n\nborder-box\n\n· 在CSS中微元素设定的宽度和高度就决定了元素的边框盒\n\n· 即为元素在设置内边距和边框是在已经设定好的宽度和高度之内进行绘制\n\n· CSS中设定的宽度和高度减去边框和内间距才能得到元素内容所占的实际宽度和高度\n\n(Q1)box-sizing: content-box|border-box|inherit;\n(Q2)content-box:宽度和高度分别应用到元素的内容框。在宽度和高度之外绘制元素的内边距和边框(元素默认效果)。\nborder-box:元素指定的任何内边距和边框都将在已设定的宽度和高度内进行绘制。通过从已设定的宽度和高度分别减去边框和内边距才能得到内容的宽度和高度。",
+      "user": "admin",
+      "id": 36
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "program",
+      "description": "编写一个方法去掉数组里面 重复的内容",
+      "programAnswer": "var arr = ['abc','abcd','sss','2','d','t','2','ss','f','22','d'];\n\n//定义一个新的数组\n\nvar s = [];\n\n//遍历数组\n\nfor(var i = 0;i<arr.length;i++){\n\n    if(s.indexOf(arr[i]) == -1){  //判断在s数组中是否存在，不存在则push到s数组中\n\n        s.push(arr[i]);\n\n    }\n\n}\n\nconsole.log(s);\n\n//输出结果：[\"abc\", \"abcd\", \"sss\", \"2\", \"d\", \"t\", \"ss\", \"f\", \"22\"]\n\n方法二：用sort()  然后相邻比较也可以实现",
+      "user": "admin",
+      "id": 34
+    },
+    {
+      "subject": "css",
+      "degree": "3",
+      "type": "answer",
+      "description": "CSS的盒子模型由什么组成？",
+      "textAnswer": "   1.内容（content）————我们往往给块级元素设置高度和宽度就是内容的高度和宽度\n    2.边框（border）————边框的粗细是盒子的一部分（四个边框）\n    3.内边距（padding）————内容和边框的距离（四个方向）\n    4.外边距（margin）————边框四周的空间，距离父容器的距离（四个方向）",
+      "user": "admin",
+      "id": 31
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "answer",
+      "description": "display:none和visibility:hidden的区别是什么?",
+      "textAnswer": "display:none 不为被隐藏的对象保留其物理空间\n    visibility：hidden 为被隐藏的对象保留其物理空间\n    也就是display:;当他的值变成block 的时候，它所在的结构才会被加载进来。\n    而visibility就会在加载页面的同时就已经把它加载进来了，\n        因为他的值为hidden的时候，它所占的空间还在。",
+      "user": "admin",
+      "id": 30
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "关于HTML5说法正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "HTML5只是对HTML4的一个简单升级"
+        },
+        {
+          "key": "b",
+          "description": "所有浏览器都支持HTML5"
+        },
+        {
+          "key": "c",
+          "description": "HTML5新增了离线缓存机制"
+        },
+        {
+          "key": "d",
+          "description": "HTML5书写格式要求必须按照书写规范"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 28
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "关于文档对象模型（Document Object Model），如下说法错误的是：",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "DOM能够以编程方式访问和操作web页面内容。 "
+        },
+        {
+          "key": "b",
+          "description": "DOM允许通过对象的属性和方法访问页面中的对象。"
+        },
+        {
+          "key": "c",
+          "description": "DOM能够创建动态的文档内容，但是不能删除文档对象。 "
+        },
+        {
+          "key": "d",
+          "description": "DOM也提供了处理事件的接口，它允许捕获和响应用户以及浏览器的动作。 "
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 29
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "window对象的方法中，哪个方法是用于弹出确认对话框，可让选择“确定”或“取消”",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "confirm"
+        },
+        {
+          "key": "b",
+          "description": "alert"
+        },
+        {
+          "key": "c",
+          "description": "prompt"
+        },
+        {
+          "key": "d",
+          "description": "open"
+        }
+      ],
+      "choiceAnswer": [
+        "a"
+      ],
+      "user": "admin",
+      "id": 27
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "下列代表有序清单的标签是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "<ul>…<li>…</ul>"
+        },
+        {
+          "key": "b",
+          "description": "<ol>…<li>…</ol>"
+        },
+        {
+          "key": "c",
+          "description": "<hl>…<li>…</hl>"
+        },
+        {
+          "key": "d",
+          "description": "< li >…< ol >…</ li >"
+        }
+      ],
+      "choiceAnswer": [
+        "b"
+      ],
+      "user": "admin",
+      "id": 26
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "answer",
+      "description": "请写出你对闭包的理解，并列出简单的理解",
+      "textAnswer": "使用闭包主要是为了设计私有的方法和变量。闭包的优点是可以避免全局变量的污染，缺点是闭包会常驻内存，会增大内存使用量，使用不当很容易造成内存泄露。\n\n闭包有三个特性：\n\n1.函数嵌套函数 \n\n2.函数内部可以引用外部的参数和变量 \n\n3.参数和变量不会被垃圾回收机制回收\n\n\n答案二：\n1、定义和用法：当一个函数的返回值是另外一个函数，而返回的那个函数如果调用了其父函数内部的其它变量，如果返回的这个函数在外部被执行，就产生了闭包。\n\n2、表现形式：使函数外部能够调用函数内部定义的变量。\n\n3、实例如下：\n\n(1)、根据作用域链的规则，底层作用域没有声明的变量，会向上一级找，找到就返回，没找到就一直找，直到window的变量，没有就返回undefined。这里明显count 是函数内部的flag2 的那个count 。\n\nvar count=10;   //全局作用域 标记为flag1function add(){\n\n    var count=0;    //函数全局作用域 标记为flag2\n\n    return function(){\n\n        count+=1;   //函数的内部作用域        alert(count);\n\n    }\n\n}var s = add()\n\ns();//输出1\n\ns();//输出2\n\n4、变量的作用域\n\n要理解闭包，首先必须理解Javascript特殊的变量作用域。\n\n变量的作用域分类：全局变量和局部变量。\n\n特点：\n\n1、函数内部可以读取函数外部的全局变量；在函数外部无法读取函数内的局部变量。\n\n2、函数内部声明变量的时候，一定要使用var命令。如果不用的话，你实际上声明了一个全局变量！\n\n 5、使用闭包的注意点\n\n1）滥用闭包，会造成内存泄漏：由于闭包会使得函数中的变量都被保存在内存中，内存消耗很大，所以不能滥用闭包，否则会造成网页的性能问题，在IE中可能导致内存泄露。解决方法是，在退出函数之前，将不使用的局部变量全部删除。\n\n2）会改变父函数内部变量的值。所以，如果你把父函数当作对象（object）使用，把闭包当作它的公用方法（Public Method），把内部变量当作它的私有属性（private value），这时一定要小心，不要随便改变父函数内部变量的值。",
+      "user": "admin",
+      "id": 45
+    },
+    {
+      "subject": "js",
+      "degree": "5",
+      "type": "answer",
+      "description": "new操作符到底做了什么",
+      "textAnswer": "new共经过了4几个阶段\n\n1、创建一个空对象\n\nvarobj=new Object();  \n\n2、设置原型链\nobj.__proto__= Func.prototype;  \n\n3、让Func中的this指向obj，并执行Func的函数体。\n\n\n var result =Func.call(obj);  \n\n4、判断Func的返回值类型：\n\n如果是值类型，返回obj。如果是引用类型，就返回这个引用类型的对象。\n\n if (typeof(result) == \"object\"){  \n\n  func=result;  \n\n }  \n\n else{  \n\n     func=obj;;  \n\n }  ",
+      "user": "admin",
+      "id": 44
+    },
+    {
+      "subject": "html",
+      "degree": "4",
+      "type": "answer",
+      "description": "对<meta></meta>标签有什么理解",
+      "textAnswer": "元数据（metadata）是关于数据的信息。\n\n标签提供关于 HTML 文档的元数据。元数据不会显示在页面上，但是对于机器是可读的。\n\n典型的情况是，meta 元素被用于规定页面的描述、关键词、文档的作者、最后修改时间以及其他元数据。\n\n标签始终位于 head 元素中。\n\n元数据可用于浏览器（如何显示内容或重新加载页面），搜索引擎（关键词），或其他 web 服务。\n\n其实对上面的概念简单总结下就是：<meta> 标签提供关于 HTML 文档的元数据。它不会显示在页面上，但是对于机器是可读的。可用于浏览器（如何显示内容或重新加载页面），搜索引擎（关键词），或其他 web 服务。\n\nmeta的作用\n\nmeta里的数据是供机器解读的，告诉机器该如何解析这个页面，还有一个用途是可以添加服务器发送到浏览器的http头部内容",
+      "user": "admin",
+      "id": 43
+    },
+    {
+      "subject": "html",
+      "degree": "5",
+      "type": "answer",
+      "description": "从输入url到显示页面，都经历了什么",
+      "textAnswer": "第一步：客户机提出域名解析请求,并将该请求发送给本地的域名服务器。\n\n第二步：当本地的域名服务器收到请求后,就先查询本地的缓存,如果有该纪录项,则本地的域名服务器就直接把查询的结果返回。\n\n第三步：如果本地的缓存中没有该纪录,则本地域名服务器就直接把请求发给根域名服务器,然后根域名服务器再返回给本地域名服务器一个所查询域(根的子域)的主域名服务器的地址。\n第四步：本地服务器再向上一步返回的域名服务器发送请求,然后接受请求的服务器查询自己的缓存,如果没有该纪录,则返回相关的下级的域名服务器的地址。\n第五步：重复第四步,直到找到正确的纪录。\n\n第2种解释：\n\n一般会经历以下几个过程：\n\n1、首先，在浏览器地址栏中输入url\n\n2、浏览器先查看浏览器缓存-系统缓存-路由器缓存，如果缓存中有，会直接在屏幕中显示页面内容。若没有，则跳到第三步操作。\n\n3、在发送http请求前，需要域名解析(DNS解析)(DNS（域名系统，Domain Name System）是互联网的一项核心服务，它作为可以将域名和IP地址相互映射的一个分布式数据库，能够使人更方便的访问互联网，而不用去记住IP地址。)，解析获取相应的IP地址。\n\n4、浏览器向服务器发起tcp连接，与浏览器建立tcp三次握手。（TCP即传输控制协议。TCP连接是互联网连接协议集的一种。）\n\n5、握手成功后，浏览器向服务器发送http请求，请求数据包。\n\n6、服务器处理收到的请求，将数据返回至浏览器\n\n7、浏览器收到HTTP响应\n\n8、读取页面内容，浏览器渲染，解析html源码\n\n9、生成Dom树、解析css样式、js交互\n\n10、客户端和服务器交互\n\n11、ajax查询",
+      "user": "admin",
+      "id": 42
+    },
+    {
+      "subject": "css",
+      "degree": "5",
+      "type": "answer",
+      "description": "CSS3新增的属性",
+      "textAnswer": "1.CSS3边框：\n\n· border-radius：CSS3圆角边框。在 CSS2 中添加圆角矩形需要技巧，我们必须为每个圆角使用不同的图片，在 CSS3 中，创建圆角是非常容易的，在 CSS3 中，border-radius 属性用于创建圆角。border：2px solid;\n\n· box-shadow：CSS3边框阴影。在 CSS3 中，box-shadow 用于向方框添加阴影。box-shadow:10px 10px 5px #888888;\n\n· border-image：CSS3边框图片。通过 CSS3 的 border-image 属性，您可以使用图片来创建边框。border-image：url(border.png) 30 30 round;\n\n2.CSS3背景：\n\n· background-size： 属性规定背景图片的尺寸。在 CSS3 之前，背景图片的尺寸是由图片的实际尺寸决定的。在 CSS3 中，可以规定背景图片的尺寸，这就允许我们在不同的环境中重复使用背景图片。您能够以像素或百分比规定尺寸。如果以百分比规定尺寸，那么尺寸相对于父元素的宽度和高度。\n\n· background-origin ：属性规定背景图片的定位区域。背景图片可以放置于 content-box、padding-box 或 border-box 区域。\n\n3.CSS3文字效果：\n\n· text-shadow：在 CSS3 中，text-shadow 可向文本应用阴影。text-shadow:5px 5px 5px #FFFFFF;\n\n· word-wrap :单词太长的话就可能无法超出某个区域，允许对长单词进行拆分，并换行到下一行：p{word-wrap:break-word;}\n\n4.CSS3 2D转换：\n\ntransform：通过 CSS3 转换，我们能够对元素进行移动、缩放、转动、拉长或拉伸。\n\n· translate()：元素从其当前位置移动，根据给定的 left（x 坐标） 和 top（y 坐标） 位置参数：transform：translate（50px,100px）;值 translate(50px,100px) 把元素从左侧移动 50 像素，从顶端移动 100 像素。\n\n· rotate()：元素顺时针旋转给定的角度。允许负值，元素将逆时针旋转。transform:rotate(30deg);值 rotate(30deg) 把元素顺时针旋转 30 度。\n\n· scale():元素的尺寸会增加或减少，根据给定的宽度（X 轴）和高度（Y 轴）参数：transform:scale(2,4);值 scale(2,4) 把宽度转换为原始尺寸的 2 倍，把高度转换为原始高x() 5.CSS3 3D转换：\n\n· rotateX()：元素围绕其 X 轴以给定的度数进行旋转。transform：rotateX(120deg);\n\n· rotateY()：元素围绕其 Y 轴以给定的度数进行旋转。transform：rotateY(120deg);\n\n6.CSS3 过渡：当元素从一种样式变换为另一种样式时为元素添加效果。\n\n7.CSS3动画：通过 CSS3，我们能够创建动画，这可以在许多网页中取代动画图片、Flash 动画以及 JavaScript。\n\n8.CSS3多列：\n\n· column-count：属性规定元素应该被分隔的列数。\n\n· column-gap：属性规定列之间的间隔。\n\n· column-rule ：属性设置列之间的宽度、样式和颜色规则。\n\n9.CSS3用户界面：\n\n· resize：属性规定是否可由用户调整元素尺寸。\n\n· box-sizing：属性允许您以确切的方式定义适应某个区域的具体内容。\n\n· outline-offset ：属性对轮廓进行偏移，并在超出边框边缘的位置绘制轮廓。",
+      "user": "admin",
+      "id": 41
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "program",
+      "description": "判断一个字符串中出现次数最多的字符，统计这个次数",
+      "programAnswer": "var str = 'asdfssaaasasasasaa';\n\nvar json = {};\n\nfor (var i = 0; i < str.length; i++) {\n\n    if(!json[str.charAt(i)]){\n\n       json[str.charAt(i)] = 1;\n\n    }else{\n\n       json[str.charAt(i)]++;\n\n    }\n\n};var iMax = 0;var iIndex = '';for(var i in json){\n\n    if(json[i]>iMax){\n\n         iMax = json[i];\n\n         iIndex = i;\n\n    }\n\n}        console.log('出现次数最多的是:'+iIndex+'出现'+iMax+'次');",
+      "user": "admin",
+      "id": 46
+    },
+    {
+      "subject": "css",
+      "degree": "3",
+      "type": "answer",
+      "description": "清除浮动的几种方式，各自的优缺点",
+      "textAnswer": "1.父级div定义 height \n原理：父级div手动定义height，就解决了父级div无法自动获取到高度的问题。 \n优点：简单、代码少、容易掌握 \n\n缺点：只适合高度固定的布局，要给出精确的高度，如果高度和父级div不一样时，会产生问题\n\n2，结尾处加空div标签 clear:both\n\n原理：添加一个空div，利用css提高的clear:both清除浮动，让父级div能自动获取到高度 \n优点：简单、代码少、浏览器支持好、不容易出现怪问题 \n缺点：不少初学者不理解原理；如果页面浮动布局多，就要增加很多空div，让人感觉很不好\n3，父级div定义 伪类:after 和 zoom\n\n原理：IE8以上和非IE浏览器才支持:after，原理和方法2有点类似，zoom(IE转有属性)可解决ie6,ie7浮动问题 \n优点：浏览器支持好、不容易出现怪问题（目前：大型网站都有使用，如：腾迅，网易，新浪等等） \n缺点：代码多、不少初学者不理解原理，要两句代码结合使用才能让主流浏览器都支持\n4，父级div定义 overflow:hidden\n\n原理：必须定义width或zoom:1，同时不能定义height，使用overflow:hidden时，浏览器会自动检查浮动区域的高度 \n优点：简单、代码少、浏览器支持好 \n缺点：不能和position配合使用，因为超出的尺寸的会被隐藏。",
+      "user": "admin",
+      "id": 32
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "multiple",
+      "description": "下列哪些会返回true？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "null == false"
+        },
+        {
+          "key": "b",
+          "description": "undefined == false"
+        },
+        {
+          "key": "c",
+          "description": "'0' == false"
+        },
+        {
+          "key": "d",
+          "description": "NaN == false"
+        },
+        {
+          "key": "e",
+          "description": "NaN == true"
+        }
+      ],
+      "choiceAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "user": "admin",
+      "id": 54
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "program",
+      "description": "你面前有一座高塔，这座高塔有N(N > 100)个台阶，你每次只能往前迈1个或者2个台阶，请写出程序计算总共有多少种走法？",
+      "programAnswer": "这个案例满足斐波那契定律  1，1，2，3，5，8，13，21, 34, 55, 89, 144\n\nvarn1 = 1;\nvar n2 = 1;\nvar n3 = n1 + n2;\n\nfor (var i = 3; i <= n; i++) {\nn3 = n1 + n2;\nn1 = n2;//往后推一项\nn2 = n3;//往后推一项\n}\nconsole.log(n3);",
+      "user": "admin",
+      "id": 47
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "multiple",
+      "description": "以下哪条语句会产生运行错误：",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "var obj = ();"
+        },
+        {
+          "key": "b",
+          "description": "var obj = [];"
+        },
+        {
+          "key": "c",
+          "description": "var obj = {obj};"
+        },
+        {
+          "key": "d",
+          "description": "var obj // = ;"
+        },
+        {
+          "key": "e",
+          "description": "var obj = {true}"
+        }
+      ],
+      "choiceAnswer": [
+        "a",
+        "e"
+      ],
+      "user": "admin",
+      "id": 87
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "single",
+      "description": "哪个对象可以获得屏幕的大小",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "window"
+        },
+        {
+          "key": "b",
+          "description": "screen"
+        },
+        {
+          "key": "c",
+          "description": "navigator"
+        },
+        {
+          "key": "d",
+          "description": "screenX"
+        }
+      ],
+      "choiceAnswer": [
+        "b"
+      ],
+      "user": "admin",
+      "id": 86
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "window对象的open方法返回值是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "没有返回值"
+        },
+        {
+          "key": "b",
+          "description": "boolean类型，表示当前窗口是否打开成功"
+        },
+        {
+          "key": "c",
+          "description": "返回打开新窗口的对象"
+        },
+        {
+          "key": "d",
+          "description": "返回int类型的值，开启窗口的个数"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 85
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "multiple",
+      "description": "在JavaScript中，下列选项只能用来作单行注释的是（）",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "##"
+        },
+        {
+          "key": "b",
+          "description": "/**/"
+        },
+        {
+          "key": "c",
+          "description": "//"
+        },
+        {
+          "key": "d",
+          "description": "<!-->"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 84
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "在JavaScript中有如下代码，下列输出结果为true的选项是（）\nvar a='true',b=true,c=1;",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "alert(a==b)"
+        },
+        {
+          "key": "b",
+          "description": "alert(b==c)"
+        },
+        {
+          "key": "c",
+          "description": "alert(a==c)"
+        },
+        {
+          "key": "d",
+          "description": "alert(b===c)"
+        }
+      ],
+      "choiceAnswer": [
+        "b"
+      ],
+      "user": "admin",
+      "id": 83
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "在JavaScript中，当前的系统时间是“2015-8-12“，调用Date对象的getMonth()方法后得到的结果是（）。",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "7"
+        },
+        {
+          "key": "b",
+          "description": "8"
+        },
+        {
+          "key": "c",
+          "description": "9"
+        },
+        {
+          "key": "d",
+          "description": "'08'"
+        }
+      ],
+      "choiceAnswer": [
+        "a"
+      ],
+      "user": "admin",
+      "id": 82
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "在JavaScript中要制作时钟特效，① 处应该填写（）\nfunction clock_12h()\n\n{\n\n var today = new Date(); //获得当前时间\n\n //获得年、月、日，Date()函数中的月份是从0－11计算\n\n var year = today.getFullYear();  \n\n var month = today.getMonth()+1;\n\n var date = today.getDate();\n\n var hour = today.getHours();  //获得小时、分钟、秒\n\n var minute = today.getMinutes();var second = today.getSeconds();\n\n?\n\n  /*设置div的内容为当前时间*/\n\n document.getElementById(\"myclock\").innerHTML=\"<h2>你好，欢迎访问！</h2><h2>\"+year+\"年\"+month\n\n +\"月\"+date+\"日 \"+hour+\":\"+minute+\":\"+second+\" \"+\"</h2>\";\n\n}\n\n-------------------①--------------",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "var myTime =setTimeout(\"clock_12h()\");"
+        },
+        {
+          "key": "b",
+          "description": "var myTime =setInterval(\"clock_12h()\");"
+        },
+        {
+          "key": "c",
+          "description": "var myTime = setTimeout(\"clock_12h()\",1000);"
+        },
+        {
+          "key": "d",
+          "description": "var myTime = setInterval(\"clock_12h()\",1000);"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "user": "admin",
+      "id": 81
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "multiple",
+      "description": "下面关于CSS布局的描述，不正确的是？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "块级元素实际占用的宽度与它的 width 属性有关；"
+        },
+        {
+          "key": "b",
+          "description": "块级元素实际占用的宽度与它的 border 属性有关；"
+        },
+        {
+          "key": "c",
+          "description": "块级元素实际占用的宽度与它的 padding 属性有关；"
+        },
+        {
+          "key": "d",
+          "description": "块级元素实际占用的宽度与它的 background 属性有关。"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "user": "admin",
+      "id": 80
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "下面的输出结果\n(function() {\n\n      var a = b = 5;\n\n  })();   \n\nconsole.log(b);\n\nconsole.log(a);",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "5 5"
+        },
+        {
+          "key": "b",
+          "description": "undefind undefind"
+        },
+        {
+          "key": "c",
+          "description": "5 undefind"
+        },
+        {
+          "key": "d",
+          "description": "undefind 5"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 79
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "multiple",
+      "description": "下面属于javascript基本数据类型的有？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "String "
+        },
+        {
+          "key": "b",
+          "description": "Boolean "
+        },
+        {
+          "key": "c",
+          "description": "Number "
+        },
+        {
+          "key": "d",
+          "description": "null "
+        },
+        {
+          "key": "e",
+          "description": "undefined"
+        }
+      ],
+      "choiceAnswer": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "user": "admin",
+      "id": 78
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "multiple",
+      "description": "下面有关javascript系统方法的描述，错误的是？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "parseFloat方法：该方法将一个字符串转换成对应的小数"
+        },
+        {
+          "key": "b",
+          "description": "isNaN方法：该方法用于检测参数是否为数值型，如果是，返回true，否则，反回false。"
+        },
+        {
+          "key": "c",
+          "description": "escape方法： 该方法返回对一个字符串编码后的结果字符串"
+        },
+        {
+          "key": "d",
+          "description": "eval方法：该方法将某个参数字符串作为一个JavaScript执行"
+        }
+      ],
+      "choiceAnswer": [
+        "b"
+      ],
+      "point": "NaN,即非数值（Not a Number）是一个特殊的数值，这个数值用来表示一个本来要返回数值的操作数未返回数值的情况（这样就不会抛出错误了）。\n\n针对NaN的特点，ECMAScript定义了isNaN（）函数。这个函数接受一个参数，该参数可以是任何类型，而函数会帮我们确定这个参数是否“不是数值”。isNaN（）在接受一个值后，会尝试将这个值转换为数值。某些不是数值的值会直接转换为数值，例如字符串“10”或Boolean值。而任何不能被转换为数值的值都会导致这个函数返回true。",
+      "user": "admin",
+      "id": 77
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "下面符合一个有效的javascript变量定义规则的是？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "_$te$t2"
+        },
+        {
+          "key": "b",
+          "description": "with"
+        },
+        {
+          "key": "c",
+          "description": "a bc"
+        },
+        {
+          "key": "d",
+          "description": "2a"
+        }
+      ],
+      "choiceAnswer": [
+        "a"
+      ],
+      "point": "\n第一个字符必须是一个 ASCII 字母（大小写均可），或一个下划线(_)。注意第一个字符不能是数字。 \n\n后续的字符必须是字母、数字或下划线。  \n",
+      "user": "admin",
+      "id": 76
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "请给出这段代码的运行结果\nvar bb = 1;\n\nfunction aa(bb) {\n\n    bb = 2;\n\n    alert(bb);\n\n};\n\naa(bb);\n\nalert(bb);\n",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "1 1"
+        },
+        {
+          "key": "b",
+          "description": "1 2"
+        },
+        {
+          "key": "c",
+          "description": "2 1"
+        },
+        {
+          "key": "d",
+          "description": "2 2"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "point": "函数体内，bb并没有使用var来定义，按理说这个bb在预处理的时候应该是window的属性。但在这里，函数声明的时候，带了一个参数bb，也就是相当于在函数体内声明了var bb。所以，函数里的bb就是函数活动对象的属性。所以函数执行时会输出2。函数执行完后，函数的活动对象被销毁，也就是局部的这个bb被删除了，执行流进入到window，再输出bb，值就是1了。如果声明函数时，把参数那里的bb去掉，这段代码执行起来，结果就是弹出 2 2",
+      "user": "admin",
+      "id": 75
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "下面这个JS程序的输出是什么\nfunction Foo() {\n\n    var i = 0;\n\n    return function() {\n\n        console.log(i++);\n\n    }\n\n}\n\n\nvar f1 = Foo(),\n\n    f2 = Foo();\n\nf1();\n\nf1();\n\nf2();",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "0 1 0"
+        },
+        {
+          "key": "b",
+          "description": "0 1 2"
+        },
+        {
+          "key": "c",
+          "description": "0 0 0"
+        },
+        {
+          "key": "d",
+          "description": "0 0 2"
+        }
+      ],
+      "choiceAnswer": [
+        "a"
+      ],
+      "user": "admin",
+      "id": 74
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "multiple",
+      "description": "下面有关浏览器中使用js跨域获取数据的描述，说法错误的是？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "域名、端口相同，协议不同，属于相同的域"
+        },
+        {
+          "key": "b",
+          "description": "js可以使用jsonp进行跨域"
+        },
+        {
+          "key": "c",
+          "description": "通过修改document.domain来跨子域"
+        },
+        {
+          "key": "d",
+          "description": "使用window.name来进行跨域"
+        }
+      ],
+      "choiceAnswer": [
+        "a"
+      ],
+      "user": "admin",
+      "id": 73
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "如果需要匹配包含文本的元素，用下面哪种来实现？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "text()"
+        },
+        {
+          "key": "b",
+          "description": "contains()"
+        },
+        {
+          "key": "c",
+          "description": "input()"
+        },
+        {
+          "key": "d",
+          "description": "attr(name)"
+        }
+      ],
+      "choiceAnswer": [
+        "b"
+      ],
+      "point": "text()是jQuery中的方法，可是设置或返回被选元素的文本内容\n\ncontains，选取包含指定字符串的元素，字符串也可以是文本\n\n:input()选择器，选取表单元素\n\nattr(name,value)属性操作，设置或返回被选元素的属性和属性值",
+      "user": "admin",
+      "id": 72
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "在一个表单中，如果想要给输入框添加一个输入验证，可以用下面的哪个事件实现？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "hover(over ,out)"
+        },
+        {
+          "key": "b",
+          "description": "keypress（fn）"
+        },
+        {
+          "key": "c",
+          "description": "change()"
+        },
+        {
+          "key": "d",
+          "description": "change(fn)"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "user": "admin",
+      "id": 71
+    },
+    {
+      "subject": "js",
+      "degree": "5",
+      "type": "single",
+      "description": "promise的状态有（）",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "pending"
+        },
+        {
+          "key": "b",
+          "description": "onresolved"
+        },
+        {
+          "key": "c",
+          "description": "fulfilled"
+        },
+        {
+          "key": "d",
+          "description": "rejected"
+        }
+      ],
+      "choiceAnswer": [
+        "a",
+        "c",
+        "d"
+      ],
+      "point": "一个promise可能有三种状态：等待（pending）、已完成（fulfilled）、已拒绝（rejected）\n\n一个promise的状态只可能从“等待”转到“完成”态或者“拒绝”态，不能逆向转换，同时“完成”态和“拒绝”态不能相互转换\n\npromise必须实现then方法（可以说，then就是promise的核心），而且then必须返回一个promise，同一个promise的then可以调用多次，并且回调的执行顺序跟它们被定义时的顺序一致\n\nthen方法接受两个参数，第一个参数是成功时的回调，在promise由“等待”态转换到“完成”态时调用，另一个是失败时的回调，在promise由“等待”态转换到“拒绝”态时调用。同时，then可以接受另一个promise传入，也接受一个“类then”的对象或方法，即thenable对象。",
+      "user": "admin",
+      "id": 70
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "写出如下代码弹出的结果:\nvar m= 1, j = k = 0; \n\n    function add(n) { \n\n        return n = n+1; \n\n　 } \n\n    y = add(m); \n\n    function add(n) { \n\n        return n = n + 3; \n\n    } \n\nz = add(m); \n",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "2,4"
+        },
+        {
+          "key": "b",
+          "description": "4,4"
+        },
+        {
+          "key": "c",
+          "description": "2,2"
+        },
+        {
+          "key": "d",
+          "description": "报异常"
+        }
+      ],
+      "choiceAnswer": [
+        "b"
+      ],
+      "user": "admin",
+      "id": 69
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "single",
+      "description": "当一个文本框中的内容被选中时，想要执行指定的方法时，可以使用下面哪个事件来实现？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "click(fn)"
+        },
+        {
+          "key": "b",
+          "description": "change(fn)"
+        },
+        {
+          "key": "c",
+          "description": "select(fn)"
+        },
+        {
+          "key": "d",
+          "description": "bind(fn)"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 68
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "下面有关javascript常见事件的触发情况，描述错误的是？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "onmousedown：某个鼠标按键被按下"
+        },
+        {
+          "key": "b",
+          "description": "onkeypress：某个键盘的键被按下或按住"
+        },
+        {
+          "key": "c",
+          "description": "onblur：元素获得焦点"
+        },
+        {
+          "key": "d",
+          "description": "onchange：用户改变域的内容"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 67
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "下面有关JavaScript中 call和apply的描述，错误的是？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "call与aplly都属于Function.prototype的一个方法，所以每个function实例都有call、apply属性"
+        },
+        {
+          "key": "b",
+          "description": "两者传递的参数不同，call函数第一个参数都是要传入给当前对象的对象，apply不是"
+        },
+        {
+          "key": "c",
+          "description": "apply传入的是一个参数数组，也就是将多个参数组合成为一个数组传入"
+        },
+        {
+          "key": "d",
+          "description": "call传入的则是直接的参数列表。call 方法可将一个函数的对象上下文从初始的上下文改变为由 thisObj 指定的新对象。"
+        }
+      ],
+      "choiceAnswer": [
+        "b"
+      ],
+      "user": "admin",
+      "id": 66
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "下列哪个操作是W3C标准定义的阻止事件向父容器传递（）？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "e.preventDefault()"
+        },
+        {
+          "key": "b",
+          "description": "e.cancelBubble=true"
+        },
+        {
+          "key": "c",
+          "description": "e.stopPropagation()"
+        },
+        {
+          "key": "d",
+          "description": "e.stopImmediatePropagation()"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 65
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "把鼠标移到按钮并点击时，会产生一串什么样的事件？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "active hover focus"
+        },
+        {
+          "key": "b",
+          "description": "focus hover active"
+        },
+        {
+          "key": "c",
+          "description": "hover active focus"
+        },
+        {
+          "key": "d",
+          "description": "hover focus active"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "user": "admin",
+      "id": 64
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "下列哪一个是页面载入时会触发什么Dom事件？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "onchange"
+        },
+        {
+          "key": "b",
+          "description": "onaclive"
+        },
+        {
+          "key": "c",
+          "description": "onload"
+        },
+        {
+          "key": "d",
+          "description": "ready"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 63
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "如何把 7.25 四舍五入为最接近的整数？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "Math.round(7.25)"
+        },
+        {
+          "key": "b",
+          "description": "Math.ciel(7.25)"
+        },
+        {
+          "key": "c",
+          "description": "Math.floor(7.25)"
+        },
+        {
+          "key": "d",
+          "description": "Math.acos(7.25)"
+        }
+      ],
+      "choiceAnswer": [
+        "a"
+      ],
+      "user": "admin",
+      "id": 62
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "以下Js程序的输出是什么（）\nvar a=\"undefined\";\n\n    var b=\"false\";\n\n    var c=\"\";\n\n    function assert(aVar){\n\n        if(aVar)     \n\n            alert(true);\n\n        else  \n\n            alert(false);\n\n    }\n\n    assert(a);\n\n    assert(b);\n\n    assert(c);",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "true，true，true"
+        },
+        {
+          "key": "b",
+          "description": "true，true，false"
+        },
+        {
+          "key": "c",
+          "description": "false，false，true"
+        },
+        {
+          "key": "d",
+          "description": "false，false，false"
+        }
+      ],
+      "choiceAnswer": [
+        "b"
+      ],
+      "user": "admin",
+      "id": 61
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "single",
+      "description": "现有如下html结构\n\n<ul>\n\n <li>click me</li>\n\n <li>click me</li>\n\n <li>click me</li>\n\n <li>click me</li>\n\n</ul>\n\n运行如下代码：\n\n    var elements=document.getElementsByTagName('li');\n\n    var length=elements.length;\n\n    for(var i=0;i<length;i++){\n\n        elements[i].onclick=function(){\n\n        alert(i);\n\n    }\n\n }\n\n依次点击4个li标签，哪一个选项是正确的运行结果（）?",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "依次弹出1，2，3，4"
+        },
+        {
+          "key": "b",
+          "description": "依次弹出0，1，2，3"
+        },
+        {
+          "key": "c",
+          "description": "依次弹出3，3，3，3"
+        },
+        {
+          "key": "d",
+          "description": "依次弹出4，4，4，4"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "user": "admin",
+      "id": 60
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "if(! \"a\" in window){\n\n    var a = 1;\n\n}\n\nalert(a);\n\n请问 a 的结果是什么？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "null"
+        },
+        {
+          "key": "b",
+          "description": "1"
+        },
+        {
+          "key": "c",
+          "description": "undefined"
+        },
+        {
+          "key": "d",
+          "description": "以上都不正确"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 59
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "single",
+      "description": "下面关于promise的说法中，错误的是（）",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": ".resolve（）和reject都是直接生成一个进入相应状态的promise对象，其参数就是进入相应状态时传递过去的参数，可以在完成回调的参数中得到"
+        },
+        {
+          "key": "b",
+          "description": "Promise.resolve（value），Promise.reject（reason）是Promise构造器上还直接提供了一组静态方法"
+        },
+        {
+          "key": "c",
+          "description": "在调用then方法或者catch方法时都是异步进行的，但是执行速度比较快"
+        },
+        {
+          "key": "d",
+          "description": "Promise构造器的prototype上还有两个方法，分别是then和catch。这两个方法的参数也是回调函数，这些函数会在Promise实例进入不同状态后被调用。Then对应到resolve，catch对应到reject"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "point": "then 有两个参数 都是回调函数 第一个回调函数，在Promise 状态为resolve 执行，第二个在状态为reject执行。catch方法，相当于then(null,reject)的一个变体。",
+      "user": "admin",
+      "id": 58
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "single",
+      "description": "如果想在一个指定的元素后添加内容，下面哪个是实现该功能的？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "append(content)"
+        },
+        {
+          "key": "b",
+          "description": "appendTo(content)"
+        },
+        {
+          "key": "c",
+          "description": "insertAfter(content)"
+        },
+        {
+          "key": "d",
+          "description": "after(content)"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "user": "admin",
+      "id": 57
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "下列代码\n\nvar person={fname:\"John\",lname:\"Doe\",age:25};\n\nvar txt=\"\";\n\nfor (x in person)\n\n{\n\n  txt=txt + person[x];\n\n}\n\nalert(txt);\n\n输出为（）？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "JohnDoe25"
+        },
+        {
+          "key": "b",
+          "description": "fname:\"John\",lname:\"Doe\",age:25"
+        },
+        {
+          "key": "c",
+          "description": "fname:John,lname:Doe,age:25"
+        },
+        {
+          "key": "d",
+          "description": "fnamelnameage"
+        }
+      ],
+      "choiceAnswer": [
+        "a"
+      ],
+      "user": "admin",
+      "id": 56
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "要在10秒后调用checkState，下列哪个是正确的（）？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "window.setTimeout(checkState, 10);"
+        },
+        {
+          "key": "b",
+          "description": "window.setTimeout(checkState, 10000);"
+        },
+        {
+          "key": "c",
+          "description": "window.setTimeout(checkState(), 10);"
+        },
+        {
+          "key": "d",
+          "description": "window.setTimeout(checkState(), 10000);"
+        }
+      ],
+      "choiceAnswer": [
+        "b"
+      ],
+      "user": "admin",
+      "id": 55
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "以下为一段浏览器中可运行的Javascript 代码，则运行该段Javascript代码的页面弹出框中显示的结果是：（）\n\nvar obj = {\"key\":\"1\",\"value\":\"2\"};\n\nvar newObj = obj;\n\nnewObj.value += obj.key;\n\nalert(obj.value);？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "2"
+        },
+        {
+          "key": "b",
+          "description": "12"
+        },
+        {
+          "key": "c",
+          "description": "3"
+        },
+        {
+          "key": "d",
+          "description": "21"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "user": "admin",
+      "id": 53
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "single",
+      "description": " \"2\"+3+4  的值为？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "\"27\""
+        },
+        {
+          "key": "b",
+          "description": "9"
+        },
+        {
+          "key": "c",
+          "description": "\"234\""
+        },
+        {
+          "key": "d",
+          "description": "\"9\""
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 52
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "multiple",
+      "description": "以下哪些可以检测一个变量是一个String类型？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "typeof(obj) === \"string\""
+        },
+        {
+          "key": "b",
+          "description": "typeof obj === \"string\""
+        },
+        {
+          "key": "c",
+          "description": "obj.constructor === String"
+        },
+        {
+          "key": "d",
+          "description": "obj instanceof String"
+        }
+      ],
+      "choiceAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "user": "admin",
+      "id": 51
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "以下过于Array数组对象的说法不正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "对数组里数据的排序可以用sort函数，如果排序效果非预期，可以给sort函数加一个排序函数的参数"
+        },
+        {
+          "key": "b",
+          "description": "reverse用于对数组数据的倒序排列"
+        },
+        {
+          "key": "c",
+          "description": "向数组的最后位置加一个新元素，可以用pop方法 "
+        },
+        {
+          "key": "d",
+          "description": "unshift方法用于向数组删除一个元素"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 50
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "请选择结果为真的表达式",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "null instanceof Object"
+        },
+        {
+          "key": "b",
+          "description": "null === undefined"
+        },
+        {
+          "key": "c",
+          "description": "null == undefined"
+        },
+        {
+          "key": "d",
+          "description": "NaN == NaN"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 49
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "关于正则表达式声明6位数字的邮编，一下代码正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "var reg = /\\d6/;"
+        },
+        {
+          "key": "b",
+          "description": "var reg = \\d{6}\\;"
+        },
+        {
+          "key": "c",
+          "description": "var reg = /\\d{6}/; "
+        },
+        {
+          "key": "d",
+          "description": "var reg = new RegExp (“\\d{6}”);"
+        }
+      ],
+      "choiceAnswer": [
+        "c"
+      ],
+      "user": "admin",
+      "id": 48
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "judgment",
+      "description": "@import必须在样式规则之前，可以在css文件中引用其他文件",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 106
+    },
+    {
+      "subject": "css",
+      "degree": "4",
+      "type": "multiple",
+      "description": "关于display: none;与visibility: hidden;的区别，以下说法正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "visibility: hidden;会让元素完全从渲染树中消失，渲染的时候不占据任何空间；display:none;不会让元素从渲染树消失，渲染师元素继续占据空间，只是内容不可见"
+        },
+        {
+          "key": "b",
+          "description": "visibility: hidden;是非继承属性，子孙节点消失由于元素从渲染树消失造成，通过修改子孙节点属性无法显示；display: none;是继承属性，子孙节点消失由于继承了hidden，通过设置display:block;可以让子孙节点显示"
+        },
+        {
+          "key": "c",
+          "description": "修改常规流中元素的display通常会造成文档重排。修改visibility属性只会造成本元素的重绘。"
+        },
+        {
+          "key": "d",
+          "description": "读屏器不会读取display: none;元素内容；会读取visibility: hidden;元素内容"
+        }
+      ],
+      "choiceAnswer": [
+        "c",
+        "d"
+      ],
+      "user": "admin",
+      "id": 105
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "judgment",
+      "description": "PUT可用于局部更新，PATCH只能全量更新。",
+      "judgmentAnswer": "false",
+      "user": "admin",
+      "id": 104
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "judgment",
+      "description": "PUT操作是幂等的，POST操作不是幂等的",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 103
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "judgment",
+      "description": "PUT让服务器用请求的主体部分来创建一个由所请求的URL命名的新文档，如果那个URL已经存在的话，就用这个主体替代它",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 102
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "judgment",
+      "description": "HTML5不基于SGML，所以不用指定DTD",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 101
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "judgment",
+      "description": "任何对象都有toString()方法",
+      "judgmentAnswer": "false",
+      "user": "admin",
+      "id": 100
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "judgment",
+      "description": "typeof操作符可以判断出number、boolean、string、function、undefined和null；",
+      "judgmentAnswer": "false",
+      "user": "admin",
+      "id": 99
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "用typeof操作符获取对象的类型，它总是返回一个字符串",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 98
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "judgment",
+      "description": "eval是把对应的字符串解析成JS代码并运行",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 97
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "use strict模式下函数必须声明在顶层",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 96
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "use strict模式下可以修改函数中的arguments",
+      "judgmentAnswer": "false",
+      "user": "admin",
+      "id": 95
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "use strict不能用with，也不能在意外的情况下给全局变量赋值",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 94
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "judgment",
+      "description": "use strict可以消除Javascript语法的一些不合理、不严谨之处，减少一些怪异行为",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 93
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "JSONP只支持GET请求而不支持POST等其它类型的HTTP请求",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 92
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "document.write只能重绘整个页面, innerHTML可以重绘页面的一部分",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 91
+    },
+    {
+      "subject": "css",
+      "degree": "1",
+      "type": "judgment",
+      "description": "rem是基于父级元素计算的倍数",
+      "judgmentAnswer": "false",
+      "user": "admin",
+      "id": 90
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "judgment",
+      "description": "在HTML中，与表格一样，表单也能嵌套。",
+      "judgmentAnswer": "false",
+      "user": "admin",
+      "id": 89
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "judgment",
+      "description": "HTML标记符通常不区分大小写",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 88
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "cookie数据会自动在浏览器和服务器之间传输。",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 108
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "judgment",
+      "description": "同源必须满足协议相同，域名相同，端口相同。",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 107
+    },
+    {
+      "subject": "html",
+      "degree": "4",
+      "type": "judgment",
+      "description": "Canvas提供的功能更原始, 适合像素处理, 动态渲染和大数据量绘制; SVG功能更完善, 适合静态图片显示, 高保真文档查看和打印的应用场景",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 114
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "judgment",
+      "description": "cookie数据大小不能超过4k，而sessionStorage和localStorage则没有存储大小的限制",
+      "judgmentAnswer": "false",
+      "user": "admin",
+      "id": 113
+    },
+    {
+      "subject": "html",
+      "degree": "4",
+      "type": "judgment",
+      "description": "br hr img input link meta都属于空元素。",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 112
+    },
+    {
+      "subject": "html",
+      "degree": "4",
+      "type": "judgment",
+      "description": "浏览器加载页面上引用的CSS、JS文件、图片时，是按顺序从上到下加载的，每个浏览器可以同时下载文件的个数不同，因此经常将静态文件放在不同的域名下，这样可以加快网站打开的速度。",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 111
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "judgment",
+      "description": "arguments是所有函数中都包含的一个局部变量，是一个数组对象，对应函数调用时的实参。",
+      "judgmentAnswer": "false",
+      "user": "admin",
+      "id": 110
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "judgment",
+      "description": "cookie默认有效期为浏览器会话，一旦用户关闭浏览器，数据就丢失",
+      "judgmentAnswer": "true",
+      "user": "admin",
+      "id": 109
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "multiple",
+      "description": "以下哪些方法可以判断数组：",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "test instanceof Array"
+        },
+        {
+          "key": "b",
+          "description": "test.constructor == Array"
+        },
+        {
+          "key": "c",
+          "description": "Object.prototype.toString.call(test) == '[Object Array]'"
+        },
+        {
+          "key": "d",
+          "description": "Array.isArray(test)"
+        }
+      ],
+      "choiceAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "user": "admin",
+      "id": 115
+    },
+    {
+      "subject": "css",
+      "degree": "1",
+      "type": "multiple",
+      "description": "以下哪些属于块级元素",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "div"
+        },
+        {
+          "key": "b",
+          "description": "span"
+        },
+        {
+          "key": "c",
+          "description": "p"
+        },
+        {
+          "key": "d",
+          "description": "li"
+        }
+      ],
+      "choiceAnswer": [
+        "a",
+        "c",
+        "d"
+      ],
+      "user": "admin",
+      "id": 118
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "multiple",
+      "description": "以下可以防御CSRF攻击的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "验证 HTTP Referer 字段"
+        },
+        {
+          "key": "b",
+          "description": "在请求地址中添加 token 并验证"
+        },
+        {
+          "key": "c",
+          "description": "在 HTTP 头中自定义属性并验证"
+        },
+        {
+          "key": "d",
+          "description": "输入校验输出编码"
+        }
+      ],
+      "choiceAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "user": "admin",
+      "id": 119
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "multiple",
+      "description": "以下属于CSS伪元素的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": ":nth-child"
+        },
+        {
+          "key": "b",
+          "description": "before"
+        },
+        {
+          "key": "c",
+          "description": ":last-child"
+        },
+        {
+          "key": "d",
+          "description": ":first-line"
+        },
+        {
+          "key": "e",
+          "description": ":link"
+        }
+      ],
+      "choiceAnswer": [
+        "b",
+        "d"
+      ],
+      "user": "admin",
+      "id": 117
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "multiple",
+      "description": "以下属于CSS伪类的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": ":hover"
+        },
+        {
+          "key": "b",
+          "description": ":nth-child"
+        },
+        {
+          "key": "c",
+          "description": ":before"
+        },
+        {
+          "key": "d",
+          "description": ":after"
+        },
+        {
+          "key": "e",
+          "description": ":first-letter"
+        }
+      ],
+      "choiceAnswer": [
+        "a",
+        "b"
+      ],
+      "user": "admin",
+      "id": 116
+    },
+    {
+      "subject": "css",
+      "degree": "1",
+      "type": "multiple",
+      "description": "下列哪些是设置有关边框的属性",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "border-color"
+        },
+        {
+          "key": "b",
+          "description": "border-style"
+        },
+        {
+          "key": "c",
+          "description": "border-width"
+        },
+        {
+          "key": "d",
+          "description": "border-background"
+        }
+      ],
+      "choiceAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "user": "admin",
+      "id": 25
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "查看如下 html 代码：\n    <div class=\"header\">\n        <a href=\"help.html\">帮助</a>\n    </div>\n    <p>\n        <a href=\"home.html\">主页</a>\n        <a href=\"user.html\">个人中心</a>\n    </p>\n现需要定义样式，实现：当鼠标移入”帮助“链接上时，文本”帮助“的字体大小变为 20pt，而其他链接不变。下列样式定义中，正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "a:hover {font-size:20pt;} "
+        },
+        {
+          "key": "b",
+          "description": "div header a:hover {font-size:20pt;} "
+        },
+        {
+          "key": "c",
+          "description": ".header a {font-size:20pt;} "
+        },
+        {
+          "key": "d",
+          "description": ".header a:hover {font-size:20pt;}"
+        }
+      ],
+      "choiceAnswer": [
+        "d"
+      ],
+      "user": "admin",
+      "id": 9
+    }
+  ],
+  "quiz": [
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "judgment",
+      "description": "HTML表格在默认情况下有边框",
+      "user": "admin",
+      "id": 2
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "judgment",
+      "description": "HTML标记符不区分大小写",
+      "user": "admin",
+      "id": 1
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "judgment",
+      "description": "iframe是一种能在同一个浏览器窗口中显示多个网页的技术。",
+      "user": "admin",
+      "id": 3
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "下列元素中，为行内元素的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "div"
+        },
+        {
+          "key": "b",
+          "description": "span"
+        },
+        {
+          "key": "c",
+          "description": "p"
+        },
+        {
+          "key": "d",
+          "description": "h1"
+        }
+      ],
+      "user": "admin",
+      "id": 5
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "judgment",
+      "description": "在HTML中，与表格一样，表单也能嵌套。",
+      "user": "admin",
+      "id": 4
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "需要创建一个多选框，且和文本关联起来（单击文本就像单击核选框一样）。下列 HTML 代码中，正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "<input type=\"checkbox\" /><label>记住我</label> "
+        },
+        {
+          "key": "b",
+          "description": "<input type=\"checkbox\" /><label for=\"checkbox\">记住我</label> "
+        },
+        {
+          "key": "c",
+          "description": "<input type=\"checkbox\" id=\"c1\" /><label>记住我</label> "
+        },
+        {
+          "key": "d",
+          "description": "<input type=\"checkbox\" id=\"c1\" /><label for=\"c1\">记住我</label>"
+        }
+      ],
+      "user": "admin",
+      "id": 6
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "single",
+      "description": "<style type=\"text/css\">\n        p{color:Red;font-size:15pt;}\n    </style>\n同时，有 html 代码如下所示：\n    <p style=\"background-color:gray;color:Blue;\">p text</p>\n段落中的文本”p text“的最终显示效果是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "蓝色文本，字体大小为 15pt，背景色为灰色 "
+        },
+        {
+          "key": "b",
+          "description": "蓝色文本，默认字体大小，背景色为灰色 "
+        },
+        {
+          "key": "c",
+          "description": "蓝色文本，字体大小为 15pt，无背景色 "
+        },
+        {
+          "key": "d",
+          "description": "红色文本，字体大小为 15pt，无背景色"
+        }
+      ],
+      "user": "admin",
+      "id": 7
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "下列引用外部样式表 style1.css 的语句中，正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "<link src=\"style1.css\" type=\"text/css\" rel=\"stylesheet\" /> "
+        },
+        {
+          "key": "b",
+          "description": "<link href=\"style1.css\" type=\"css\"  /> "
+        },
+        {
+          "key": "c",
+          "description": "<link src=\"style1.css\" type=\"text/css\"  /> "
+        },
+        {
+          "key": "d",
+          "description": "<link href=\"style1.css\" type=\"text/css\" rel=\"stylesheet\" />"
+        }
+      ],
+      "user": "admin",
+      "id": 8
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "single",
+      "description": ".A >.B { font-weight:bold;}",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "<a class=\"A\"><span><a class=\"B\">文本C</a></span></a> "
+        },
+        {
+          "key": "b",
+          "description": "<a class=\"B\">文本B</a> "
+        },
+        {
+          "key": "c",
+          "description": "<p class=\"A\"><a class=\"B\">文本C</a></p> "
+        },
+        {
+          "key": "d",
+          "description": "<p class=\"B\"><a class=\"A\">文本C</a></p>"
+        }
+      ],
+      "user": "admin",
+      "id": 10
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "single",
+      "description": "查看如下 html 代码：\n    <div style=\"float:left;\">div text</div>\n    <p style=\"clear:left;\">p text</p>\n此代码在页面上的显示效果为",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "<div> 中的文本和 <p> 中的文本分两行显示，且文本左对齐 "
+        },
+        {
+          "key": "b",
+          "description": "<div> 中的文本和 <p> 中的文本在一行上显示，且文本左对齐 "
+        },
+        {
+          "key": "c",
+          "description": "<div> 中的文本和 <p> 中的文本分两行显示，且文本右对齐 "
+        },
+        {
+          "key": "d",
+          "description": "<div> 中的文本和 <p> 中的文本在一行上显示，且文本右对齐"
+        }
+      ],
+      "user": "admin",
+      "id": 11
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "single",
+      "description": "    div.parent  {\n        width:100px;\n        height:70px;\n        border:1px solid gray;\n    }\n    div.child  {\n        width:80px;\n        height:30px;\n        border:1px solid black;\n        background-color:silver;\n    }\n同时，有 html 代码如下所示：\n    <body>\n        <div class=\"parent\">\n            <div class=\"child\">1</div>\n            <div class=\"child\" style=\"position:absolute;top:15px;\">2</div>\n        </div>\n    </body>\n第二个 div 在页面上的最终位置是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "其上边框距离其父元素（div） 为 15 px 距离 "
+        },
+        {
+          "key": "b",
+          "description": "其上边框距离 body 元素为 15 px 距离 "
+        },
+        {
+          "key": "c",
+          "description": "其上边框距离其原有位置为 15 px 距离 "
+        },
+        {
+          "key": "d",
+          "description": "使用默认位置，定位并未发生改变"
+        }
+      ],
+      "user": "admin",
+      "id": 12
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "查看如下 JavaScript 代码（用于得到录入数值的整数部分）：\n    function getInt() {\n        var str = document.getElementById(\"txtData\").value;\n        if ( <<  插入代码1  >> )\n            alert(\"请录入数值\");\n        else {\n            var data = <<  插入代码2  >>;\n            alert(\"整数部分为：\" + data);\n        }\n    }\n为实现所需功能，”插入代码1“和”插入代码2“处所需要的代码分别是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "isNaN(str) 和 parseFloat(str) "
+        },
+        {
+          "key": "b",
+          "description": "!isNaN(str) 和 parseFloat(str) "
+        },
+        {
+          "key": "c",
+          "description": "isNaN(str) 和 parseInt(str) "
+        },
+        {
+          "key": "d",
+          "description": "!isNaN(str) 和 parseInt(str)"
+        }
+      ],
+      "user": "admin",
+      "id": 13
+    },
+    {
+      "subject": "js",
+      "degree": "5",
+      "type": "single",
+      "description": "阅读如下代码：\n    const a1 = [1, 2, 12];\n    const a2 = [4, 23];\n    a1.concat(a2);\n    a1.sort();\n    alert(a1.join(\",\"));\n代码运行后，alert 方法弹出的内容为",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "1,12,2"
+        },
+        {
+          "key": "b",
+          "description": "12;2;1"
+        },
+        {
+          "key": "c",
+          "description": "1,2,4,12,23"
+        },
+        {
+          "key": "d",
+          "description": "1;12;2;23;4"
+        }
+      ],
+      "user": "admin",
+      "id": 15
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "阅读如下代码：\n    var str1 = \"abc123def456\";\n    var str2 = str1.replace(/\\d+/gi, \"*\");\n代码运行后，str2 的内容为",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "abc***def "
+        },
+        {
+          "key": "b",
+          "description": "abc***def*** "
+        },
+        {
+          "key": "c",
+          "description": "abc*def "
+        },
+        {
+          "key": "d",
+          "description": "abc*def*"
+        }
+      ],
+      "user": "admin",
+      "id": 16
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "single",
+      "description": "查看如下 JavaScript 代码：\n    const a = \"10\";\n    const  b = 10;\n    if (a == b)\n        alert(\"equal\");\n    if (a === b)\n        alert(\"same\");\n此代码运行后，效果为",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "只弹出\"equal\""
+        },
+        {
+          "key": "b",
+          "description": "只弹出\"same\""
+        },
+        {
+          "key": "c",
+          "description": "先弹出\"equal\"，再弹出\"same\" "
+        },
+        {
+          "key": "d",
+          "description": "没有弹出显示"
+        }
+      ],
+      "user": "admin",
+      "id": 14
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "multiple",
+      "description": "<body>\n        <form>\n            <input type=\"text\" id=\"t1\" />\n        </form>\n    </body>\n下列选项中，能向文本框中写入文本的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "document.getElementById(\"t1\").value = \"aa\"; "
+        },
+        {
+          "key": "b",
+          "description": "document.getElementById(\"t1\").innerHTML = \"bb\"; "
+        },
+        {
+          "key": "c",
+          "description": "document.getElementsByTagName(\"input\")[0].value = \"cc\"; "
+        },
+        {
+          "key": "d",
+          "description": "document.getElementsByTagName(\"input\")[0].innerHTML = \"dd\";"
+        }
+      ],
+      "user": "admin",
+      "id": 17
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "HTML 页面上有一个超链接，要实现当鼠标移入该超级链接时，超级链接的文本背景色变为灰色。下列选项中，能实现此功能的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "<a href=\"#\" onmouseover=\"this.style.background.color='gray';\">注册</a> "
+        },
+        {
+          "key": "b",
+          "description": "<a href=\"#\" onmouseout=\"this.style.background-color='gray';\">注册</a> "
+        },
+        {
+          "key": "c",
+          "description": "<a href=\"#\" onmouseover=\"this.style.backgroundColor=gray;\">注册</a>"
+        },
+        {
+          "key": "d",
+          "description": "<a href=\"#\" onmouseover=\"this.style.backgroundColor='gray';\">注册</a>"
+        }
+      ],
+      "user": "admin",
+      "id": 18
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "multiple",
+      "description": "有数组定义如下：\n     var a1 = [1, 14, 4, 12, 23];\n现需要实现对数组 a1 中的内容按照数值大小升序排列，下列代码中，错误的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "a1.sort(new Function(\"a\", \"b\", \"return a-b;\")); "
+        },
+        {
+          "key": "b",
+          "description": "a1.sort(function (a, b) { return a - b; }); "
+        },
+        {
+          "key": "c",
+          "description": "a1.sort(new function (a, b) { return a - b; }); "
+        },
+        {
+          "key": "d",
+          "description": "a1.sort(sortFunc);     function sortFunc(a, b) {         return a - b; }"
+        }
+      ],
+      "user": "admin",
+      "id": 19
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "single",
+      "description": "html 页面上有一个 id 值为 s1 的 <select> 元素，现需要使用 JavaScript 代码清空其所有选项，下列选项中，错误的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "document.getElementById(\"s1\").options.length = 0; "
+        },
+        {
+          "key": "b",
+          "description": "document.getElementById(\"s1\") = null; "
+        },
+        {
+          "key": "c",
+          "description": "while (document.getElementById(\"s1\").options.length > 0) {\n         document.getElementById(\"s1\").remove(0);\n  } "
+        },
+        {
+          "key": "d",
+          "description": "var selObj = document.getElementById(\"s1\");\n   while (selObj.childNodes.length > 0) {\n             selObj.removeChild(selObj.lastChild);"
+        }
+      ],
+      "user": "admin",
+      "id": 22
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "现需要在页面上实现动态时钟的显示，其 html 代码如下：\n    <body onload=\"initialClock();\">\n        <span id=\"mySpan\"></span>\n    </body>\n相应的 JavaScript 代码如下：\n    function initialClock() {\n        //<< 插入代码 >>;       \n    };\n\n    function timerFunc() {\n        var v = new Date()\n        document.getElementById(\"mySpan\").innerHTML = v.toLocaleTimeString();\n    }\n为实现所需功能，”插入代码“处所需要的代码是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "window.setInterval(timerFunc,1000); "
+        },
+        {
+          "key": "b",
+          "description": "window.setInterval(timerFunc(),1000); "
+        },
+        {
+          "key": "c",
+          "description": "window.setTimeout(timerFunc,1000); "
+        },
+        {
+          "key": "d",
+          "description": "window.setTimeout(timerFunc(),1000);"
+        }
+      ],
+      "user": "admin",
+      "id": 20
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "single",
+      "description": "下列选项中，不是 window 对象的子对象的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "location "
+        },
+        {
+          "key": "b",
+          "description": "arguments"
+        },
+        {
+          "key": "c",
+          "description": "screen "
+        },
+        {
+          "key": "d",
+          "description": "length"
+        }
+      ],
+      "user": "admin",
+      "id": 21
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "single",
+      "description": "下列哪个样式定义后,行内(非块状)元素可以定义宽度和高度",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "display:inline"
+        },
+        {
+          "key": "b",
+          "description": "display:none"
+        },
+        {
+          "key": "c",
+          "description": "display:block"
+        },
+        {
+          "key": "d",
+          "description": "display:inheric"
+        }
+      ],
+      "user": "admin",
+      "id": 24
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "single",
+      "description": "html 页面上有一个 id 值为 s1 的 <select> 元素，现需要使用 JavaScript 代码向列表中添加一个选项（<option>元素），下列选项中，错误的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "document.getElementById(\"s1\").appendChild(new Option(\"aa\", 18)); "
+        },
+        {
+          "key": "b",
+          "description": "document.getElementById(\"s1\").add(new Option(\"bb\", 18)); "
+        },
+        {
+          "key": "c",
+          "description": "document.getElementById(\"s1\").options[document.getElementById(\"s1\").options.length] = new Option(\"cc\", 18); "
+        },
+        {
+          "key": "d",
+          "description": "document.getElementById(\"s1\").options.appendChild(new Option(\"dd\", 18));"
+        }
+      ],
+      "user": "admin",
+      "id": 23
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "answer",
+      "description": "document.write和innerHTML的区别",
+      "user": "admin",
+      "id": 35
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "answer",
+      "description": "请描述一下 cookies sessionStorage和localstorage区别",
+      "user": "admin",
+      "id": 33
+    },
+    {
+      "subject": "js",
+      "degree": "5",
+      "type": "answer",
+      "description": "谈谈垃圾回收机制方式及内存管理",
+      "user": "admin",
+      "id": 40
+    },
+    {
+      "subject": "js",
+      "degree": "5",
+      "type": "answer",
+      "description": "JS哪些操作会造成内存泄露",
+      "user": "admin",
+      "id": 39
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "answer",
+      "description": "常见的HTTP状态码",
+      "user": "admin",
+      "id": 38
+    },
+    {
+      "subject": "css",
+      "degree": "4",
+      "type": "answer",
+      "description": "css选择器有哪些，选择器的权重的优先级",
+      "user": "admin",
+      "id": 37
+    },
+    {
+      "subject": "css",
+      "degree": "4",
+      "type": "answer",
+      "description": "box-sizing常用的属性有哪些？分别有什么作用？",
+      "user": "admin",
+      "id": 36
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "program",
+      "description": "编写一个方法去掉数组里面 重复的内容",
+      "user": "admin",
+      "id": 34
+    },
+    {
+      "subject": "css",
+      "degree": "3",
+      "type": "answer",
+      "description": "CSS的盒子模型由什么组成？",
+      "user": "admin",
+      "id": 31
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "answer",
+      "description": "display:none和visibility:hidden的区别是什么?",
+      "user": "admin",
+      "id": 30
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "关于HTML5说法正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "HTML5只是对HTML4的一个简单升级"
+        },
+        {
+          "key": "b",
+          "description": "所有浏览器都支持HTML5"
+        },
+        {
+          "key": "c",
+          "description": "HTML5新增了离线缓存机制"
+        },
+        {
+          "key": "d",
+          "description": "HTML5书写格式要求必须按照书写规范"
+        }
+      ],
+      "user": "admin",
+      "id": 28
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "关于文档对象模型（Document Object Model），如下说法错误的是：",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "DOM能够以编程方式访问和操作web页面内容。 "
+        },
+        {
+          "key": "b",
+          "description": "DOM允许通过对象的属性和方法访问页面中的对象。"
+        },
+        {
+          "key": "c",
+          "description": "DOM能够创建动态的文档内容，但是不能删除文档对象。 "
+        },
+        {
+          "key": "d",
+          "description": "DOM也提供了处理事件的接口，它允许捕获和响应用户以及浏览器的动作。 "
+        }
+      ],
+      "user": "admin",
+      "id": 29
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "window对象的方法中，哪个方法是用于弹出确认对话框，可让选择“确定”或“取消”",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "confirm"
+        },
+        {
+          "key": "b",
+          "description": "alert"
+        },
+        {
+          "key": "c",
+          "description": "prompt"
+        },
+        {
+          "key": "d",
+          "description": "open"
+        }
+      ],
+      "user": "admin",
+      "id": 27
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "下列代表有序清单的标签是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "<ul>…<li>…</ul>"
+        },
+        {
+          "key": "b",
+          "description": "<ol>…<li>…</ol>"
+        },
+        {
+          "key": "c",
+          "description": "<hl>…<li>…</hl>"
+        },
+        {
+          "key": "d",
+          "description": "< li >…< ol >…</ li >"
+        }
+      ],
+      "user": "admin",
+      "id": 26
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "answer",
+      "description": "请写出你对闭包的理解，并列出简单的理解",
+      "user": "admin",
+      "id": 45
+    },
+    {
+      "subject": "js",
+      "degree": "5",
+      "type": "answer",
+      "description": "new操作符到底做了什么",
+      "user": "admin",
+      "id": 44
+    },
+    {
+      "subject": "html",
+      "degree": "4",
+      "type": "answer",
+      "description": "对<meta></meta>标签有什么理解",
+      "user": "admin",
+      "id": 43
+    },
+    {
+      "subject": "html",
+      "degree": "5",
+      "type": "answer",
+      "description": "从输入url到显示页面，都经历了什么",
+      "user": "admin",
+      "id": 42
+    },
+    {
+      "subject": "css",
+      "degree": "5",
+      "type": "answer",
+      "description": "CSS3新增的属性",
+      "user": "admin",
+      "id": 41
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "program",
+      "description": "判断一个字符串中出现次数最多的字符，统计这个次数",
+      "user": "admin",
+      "id": 46
+    },
+    {
+      "subject": "css",
+      "degree": "3",
+      "type": "answer",
+      "description": "清除浮动的几种方式，各自的优缺点",
+      "user": "admin",
+      "id": 32
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "multiple",
+      "description": "下列哪些会返回true？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "null == false"
+        },
+        {
+          "key": "b",
+          "description": "undefined == false"
+        },
+        {
+          "key": "c",
+          "description": "'0' == false"
+        },
+        {
+          "key": "d",
+          "description": "NaN == false"
+        },
+        {
+          "key": "e",
+          "description": "NaN == true"
+        }
+      ],
+      "user": "admin",
+      "id": 54
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "program",
+      "description": "你面前有一座高塔，这座高塔有N(N > 100)个台阶，你每次只能往前迈1个或者2个台阶，请写出程序计算总共有多少种走法？",
+      "user": "admin",
+      "id": 47
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "multiple",
+      "description": "以下哪条语句会产生运行错误：",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "var obj = ();"
+        },
+        {
+          "key": "b",
+          "description": "var obj = [];"
+        },
+        {
+          "key": "c",
+          "description": "var obj = {obj};"
+        },
+        {
+          "key": "d",
+          "description": "var obj // = ;"
+        },
+        {
+          "key": "e",
+          "description": "var obj = {true}"
+        }
+      ],
+      "user": "admin",
+      "id": 87
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "single",
+      "description": "哪个对象可以获得屏幕的大小",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "window"
+        },
+        {
+          "key": "b",
+          "description": "screen"
+        },
+        {
+          "key": "c",
+          "description": "navigator"
+        },
+        {
+          "key": "d",
+          "description": "screenX"
+        }
+      ],
+      "user": "admin",
+      "id": 86
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "window对象的open方法返回值是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "没有返回值"
+        },
+        {
+          "key": "b",
+          "description": "boolean类型，表示当前窗口是否打开成功"
+        },
+        {
+          "key": "c",
+          "description": "返回打开新窗口的对象"
+        },
+        {
+          "key": "d",
+          "description": "返回int类型的值，开启窗口的个数"
+        }
+      ],
+      "user": "admin",
+      "id": 85
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "multiple",
+      "description": "在JavaScript中，下列选项只能用来作单行注释的是（）",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "##"
+        },
+        {
+          "key": "b",
+          "description": "/**/"
+        },
+        {
+          "key": "c",
+          "description": "//"
+        },
+        {
+          "key": "d",
+          "description": "<!-->"
+        }
+      ],
+      "user": "admin",
+      "id": 84
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "在JavaScript中有如下代码，下列输出结果为true的选项是（）\nvar a='true',b=true,c=1;",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "alert(a==b)"
+        },
+        {
+          "key": "b",
+          "description": "alert(b==c)"
+        },
+        {
+          "key": "c",
+          "description": "alert(a==c)"
+        },
+        {
+          "key": "d",
+          "description": "alert(b===c)"
+        }
+      ],
+      "user": "admin",
+      "id": 83
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "在JavaScript中，当前的系统时间是“2015-8-12“，调用Date对象的getMonth()方法后得到的结果是（）。",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "7"
+        },
+        {
+          "key": "b",
+          "description": "8"
+        },
+        {
+          "key": "c",
+          "description": "9"
+        },
+        {
+          "key": "d",
+          "description": "'08'"
+        }
+      ],
+      "user": "admin",
+      "id": 82
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "在JavaScript中要制作时钟特效，① 处应该填写（）\nfunction clock_12h()\n\n{\n\n var today = new Date(); //获得当前时间\n\n //获得年、月、日，Date()函数中的月份是从0－11计算\n\n var year = today.getFullYear();  \n\n var month = today.getMonth()+1;\n\n var date = today.getDate();\n\n var hour = today.getHours();  //获得小时、分钟、秒\n\n var minute = today.getMinutes();var second = today.getSeconds();\n\n?\n\n  /*设置div的内容为当前时间*/\n\n document.getElementById(\"myclock\").innerHTML=\"<h2>你好，欢迎访问！</h2><h2>\"+year+\"年\"+month\n\n +\"月\"+date+\"日 \"+hour+\":\"+minute+\":\"+second+\" \"+\"</h2>\";\n\n}\n\n-------------------①--------------",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "var myTime =setTimeout(\"clock_12h()\");"
+        },
+        {
+          "key": "b",
+          "description": "var myTime =setInterval(\"clock_12h()\");"
+        },
+        {
+          "key": "c",
+          "description": "var myTime = setTimeout(\"clock_12h()\",1000);"
+        },
+        {
+          "key": "d",
+          "description": "var myTime = setInterval(\"clock_12h()\",1000);"
+        }
+      ],
+      "user": "admin",
+      "id": 81
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "multiple",
+      "description": "下面关于CSS布局的描述，不正确的是？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "块级元素实际占用的宽度与它的 width 属性有关；"
+        },
+        {
+          "key": "b",
+          "description": "块级元素实际占用的宽度与它的 border 属性有关；"
+        },
+        {
+          "key": "c",
+          "description": "块级元素实际占用的宽度与它的 padding 属性有关；"
+        },
+        {
+          "key": "d",
+          "description": "块级元素实际占用的宽度与它的 background 属性有关。"
+        }
+      ],
+      "user": "admin",
+      "id": 80
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "下面的输出结果\n(function() {\n\n      var a = b = 5;\n\n  })();   \n\nconsole.log(b);\n\nconsole.log(a);",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "5 5"
+        },
+        {
+          "key": "b",
+          "description": "undefind undefind"
+        },
+        {
+          "key": "c",
+          "description": "5 undefind"
+        },
+        {
+          "key": "d",
+          "description": "undefind 5"
+        }
+      ],
+      "user": "admin",
+      "id": 79
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "multiple",
+      "description": "下面属于javascript基本数据类型的有？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "String "
+        },
+        {
+          "key": "b",
+          "description": "Boolean "
+        },
+        {
+          "key": "c",
+          "description": "Number "
+        },
+        {
+          "key": "d",
+          "description": "null "
+        },
+        {
+          "key": "e",
+          "description": "undefined"
+        }
+      ],
+      "user": "admin",
+      "id": 78
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "multiple",
+      "description": "下面有关javascript系统方法的描述，错误的是？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "parseFloat方法：该方法将一个字符串转换成对应的小数"
+        },
+        {
+          "key": "b",
+          "description": "isNaN方法：该方法用于检测参数是否为数值型，如果是，返回true，否则，反回false。"
+        },
+        {
+          "key": "c",
+          "description": "escape方法： 该方法返回对一个字符串编码后的结果字符串"
+        },
+        {
+          "key": "d",
+          "description": "eval方法：该方法将某个参数字符串作为一个JavaScript执行"
+        }
+      ],
+      "user": "admin",
+      "id": 77
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "下面符合一个有效的javascript变量定义规则的是？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "_$te$t2"
+        },
+        {
+          "key": "b",
+          "description": "with"
+        },
+        {
+          "key": "c",
+          "description": "a bc"
+        },
+        {
+          "key": "d",
+          "description": "2a"
+        }
+      ],
+      "user": "admin",
+      "id": 76
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "请给出这段代码的运行结果\nvar bb = 1;\n\nfunction aa(bb) {\n\n    bb = 2;\n\n    alert(bb);\n\n};\n\naa(bb);\n\nalert(bb);\n",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "1 1"
+        },
+        {
+          "key": "b",
+          "description": "1 2"
+        },
+        {
+          "key": "c",
+          "description": "2 1"
+        },
+        {
+          "key": "d",
+          "description": "2 2"
+        }
+      ],
+      "user": "admin",
+      "id": 75
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "下面这个JS程序的输出是什么\nfunction Foo() {\n\n    var i = 0;\n\n    return function() {\n\n        console.log(i++);\n\n    }\n\n}\n\n\nvar f1 = Foo(),\n\n    f2 = Foo();\n\nf1();\n\nf1();\n\nf2();",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "0 1 0"
+        },
+        {
+          "key": "b",
+          "description": "0 1 2"
+        },
+        {
+          "key": "c",
+          "description": "0 0 0"
+        },
+        {
+          "key": "d",
+          "description": "0 0 2"
+        }
+      ],
+      "user": "admin",
+      "id": 74
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "multiple",
+      "description": "下面有关浏览器中使用js跨域获取数据的描述，说法错误的是？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "域名、端口相同，协议不同，属于相同的域"
+        },
+        {
+          "key": "b",
+          "description": "js可以使用jsonp进行跨域"
+        },
+        {
+          "key": "c",
+          "description": "通过修改document.domain来跨子域"
+        },
+        {
+          "key": "d",
+          "description": "使用window.name来进行跨域"
+        }
+      ],
+      "user": "admin",
+      "id": 73
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "如果需要匹配包含文本的元素，用下面哪种来实现？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "text()"
+        },
+        {
+          "key": "b",
+          "description": "contains()"
+        },
+        {
+          "key": "c",
+          "description": "input()"
+        },
+        {
+          "key": "d",
+          "description": "attr(name)"
+        }
+      ],
+      "user": "admin",
+      "id": 72
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "在一个表单中，如果想要给输入框添加一个输入验证，可以用下面的哪个事件实现？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "hover(over ,out)"
+        },
+        {
+          "key": "b",
+          "description": "keypress（fn）"
+        },
+        {
+          "key": "c",
+          "description": "change()"
+        },
+        {
+          "key": "d",
+          "description": "change(fn)"
+        }
+      ],
+      "user": "admin",
+      "id": 71
+    },
+    {
+      "subject": "js",
+      "degree": "5",
+      "type": "single",
+      "description": "promise的状态有（）",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "pending"
+        },
+        {
+          "key": "b",
+          "description": "onresolved"
+        },
+        {
+          "key": "c",
+          "description": "fulfilled"
+        },
+        {
+          "key": "d",
+          "description": "rejected"
+        }
+      ],
+      "user": "admin",
+      "id": 70
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "写出如下代码弹出的结果:\nvar m= 1, j = k = 0; \n\n    function add(n) { \n\n        return n = n+1; \n\n　 } \n\n    y = add(m); \n\n    function add(n) { \n\n        return n = n + 3; \n\n    } \n\nz = add(m); \n",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "2,4"
+        },
+        {
+          "key": "b",
+          "description": "4,4"
+        },
+        {
+          "key": "c",
+          "description": "2,2"
+        },
+        {
+          "key": "d",
+          "description": "报异常"
+        }
+      ],
+      "user": "admin",
+      "id": 69
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "single",
+      "description": "当一个文本框中的内容被选中时，想要执行指定的方法时，可以使用下面哪个事件来实现？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "click(fn)"
+        },
+        {
+          "key": "b",
+          "description": "change(fn)"
+        },
+        {
+          "key": "c",
+          "description": "select(fn)"
+        },
+        {
+          "key": "d",
+          "description": "bind(fn)"
+        }
+      ],
+      "user": "admin",
+      "id": 68
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "下面有关javascript常见事件的触发情况，描述错误的是？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "onmousedown：某个鼠标按键被按下"
+        },
+        {
+          "key": "b",
+          "description": "onkeypress：某个键盘的键被按下或按住"
+        },
+        {
+          "key": "c",
+          "description": "onblur：元素获得焦点"
+        },
+        {
+          "key": "d",
+          "description": "onchange：用户改变域的内容"
+        }
+      ],
+      "user": "admin",
+      "id": 67
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "下面有关JavaScript中 call和apply的描述，错误的是？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "call与aplly都属于Function.prototype的一个方法，所以每个function实例都有call、apply属性"
+        },
+        {
+          "key": "b",
+          "description": "两者传递的参数不同，call函数第一个参数都是要传入给当前对象的对象，apply不是"
+        },
+        {
+          "key": "c",
+          "description": "apply传入的是一个参数数组，也就是将多个参数组合成为一个数组传入"
+        },
+        {
+          "key": "d",
+          "description": "call传入的则是直接的参数列表。call 方法可将一个函数的对象上下文从初始的上下文改变为由 thisObj 指定的新对象。"
+        }
+      ],
+      "user": "admin",
+      "id": 66
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "下列哪个操作是W3C标准定义的阻止事件向父容器传递（）？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "e.preventDefault()"
+        },
+        {
+          "key": "b",
+          "description": "e.cancelBubble=true"
+        },
+        {
+          "key": "c",
+          "description": "e.stopPropagation()"
+        },
+        {
+          "key": "d",
+          "description": "e.stopImmediatePropagation()"
+        }
+      ],
+      "user": "admin",
+      "id": 65
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "把鼠标移到按钮并点击时，会产生一串什么样的事件？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "active hover focus"
+        },
+        {
+          "key": "b",
+          "description": "focus hover active"
+        },
+        {
+          "key": "c",
+          "description": "hover active focus"
+        },
+        {
+          "key": "d",
+          "description": "hover focus active"
+        }
+      ],
+      "user": "admin",
+      "id": 64
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "下列哪一个是页面载入时会触发什么Dom事件？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "onchange"
+        },
+        {
+          "key": "b",
+          "description": "onaclive"
+        },
+        {
+          "key": "c",
+          "description": "onload"
+        },
+        {
+          "key": "d",
+          "description": "ready"
+        }
+      ],
+      "user": "admin",
+      "id": 63
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "如何把 7.25 四舍五入为最接近的整数？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "Math.round(7.25)"
+        },
+        {
+          "key": "b",
+          "description": "Math.ciel(7.25)"
+        },
+        {
+          "key": "c",
+          "description": "Math.floor(7.25)"
+        },
+        {
+          "key": "d",
+          "description": "Math.acos(7.25)"
+        }
+      ],
+      "user": "admin",
+      "id": 62
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "以下Js程序的输出是什么（）\nvar a=\"undefined\";\n\n    var b=\"false\";\n\n    var c=\"\";\n\n    function assert(aVar){\n\n        if(aVar)     \n\n            alert(true);\n\n        else  \n\n            alert(false);\n\n    }\n\n    assert(a);\n\n    assert(b);\n\n    assert(c);",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "true，true，true"
+        },
+        {
+          "key": "b",
+          "description": "true，true，false"
+        },
+        {
+          "key": "c",
+          "description": "false，false，true"
+        },
+        {
+          "key": "d",
+          "description": "false，false，false"
+        }
+      ],
+      "user": "admin",
+      "id": 61
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "single",
+      "description": "现有如下html结构\n\n<ul>\n\n <li>click me</li>\n\n <li>click me</li>\n\n <li>click me</li>\n\n <li>click me</li>\n\n</ul>\n\n运行如下代码：\n\n    var elements=document.getElementsByTagName('li');\n\n    var length=elements.length;\n\n    for(var i=0;i<length;i++){\n\n        elements[i].onclick=function(){\n\n        alert(i);\n\n    }\n\n }\n\n依次点击4个li标签，哪一个选项是正确的运行结果（）?",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "依次弹出1，2，3，4"
+        },
+        {
+          "key": "b",
+          "description": "依次弹出0，1，2，3"
+        },
+        {
+          "key": "c",
+          "description": "依次弹出3，3，3，3"
+        },
+        {
+          "key": "d",
+          "description": "依次弹出4，4，4，4"
+        }
+      ],
+      "user": "admin",
+      "id": 60
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "single",
+      "description": "if(! \"a\" in window){\n\n    var a = 1;\n\n}\n\nalert(a);\n\n请问 a 的结果是什么？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "null"
+        },
+        {
+          "key": "b",
+          "description": "1"
+        },
+        {
+          "key": "c",
+          "description": "undefined"
+        },
+        {
+          "key": "d",
+          "description": "以上都不正确"
+        }
+      ],
+      "user": "admin",
+      "id": 59
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "single",
+      "description": "下面关于promise的说法中，错误的是（）",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": ".resolve（）和reject都是直接生成一个进入相应状态的promise对象，其参数就是进入相应状态时传递过去的参数，可以在完成回调的参数中得到"
+        },
+        {
+          "key": "b",
+          "description": "Promise.resolve（value），Promise.reject（reason）是Promise构造器上还直接提供了一组静态方法"
+        },
+        {
+          "key": "c",
+          "description": "在调用then方法或者catch方法时都是异步进行的，但是执行速度比较快"
+        },
+        {
+          "key": "d",
+          "description": "Promise构造器的prototype上还有两个方法，分别是then和catch。这两个方法的参数也是回调函数，这些函数会在Promise实例进入不同状态后被调用。Then对应到resolve，catch对应到reject"
+        }
+      ],
+      "user": "admin",
+      "id": 58
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "single",
+      "description": "如果想在一个指定的元素后添加内容，下面哪个是实现该功能的？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "append(content)"
+        },
+        {
+          "key": "b",
+          "description": "appendTo(content)"
+        },
+        {
+          "key": "c",
+          "description": "insertAfter(content)"
+        },
+        {
+          "key": "d",
+          "description": "after(content)"
+        }
+      ],
+      "user": "admin",
+      "id": 57
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "下列代码\n\nvar person={fname:\"John\",lname:\"Doe\",age:25};\n\nvar txt=\"\";\n\nfor (x in person)\n\n{\n\n  txt=txt + person[x];\n\n}\n\nalert(txt);\n\n输出为（）？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "JohnDoe25"
+        },
+        {
+          "key": "b",
+          "description": "fname:\"John\",lname:\"Doe\",age:25"
+        },
+        {
+          "key": "c",
+          "description": "fname:John,lname:Doe,age:25"
+        },
+        {
+          "key": "d",
+          "description": "fnamelnameage"
+        }
+      ],
+      "user": "admin",
+      "id": 56
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "要在10秒后调用checkState，下列哪个是正确的（）？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "window.setTimeout(checkState, 10);"
+        },
+        {
+          "key": "b",
+          "description": "window.setTimeout(checkState, 10000);"
+        },
+        {
+          "key": "c",
+          "description": "window.setTimeout(checkState(), 10);"
+        },
+        {
+          "key": "d",
+          "description": "window.setTimeout(checkState(), 10000);"
+        }
+      ],
+      "user": "admin",
+      "id": 55
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "以下为一段浏览器中可运行的Javascript 代码，则运行该段Javascript代码的页面弹出框中显示的结果是：（）\n\nvar obj = {\"key\":\"1\",\"value\":\"2\"};\n\nvar newObj = obj;\n\nnewObj.value += obj.key;\n\nalert(obj.value);？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "2"
+        },
+        {
+          "key": "b",
+          "description": "12"
+        },
+        {
+          "key": "c",
+          "description": "3"
+        },
+        {
+          "key": "d",
+          "description": "21"
+        }
+      ],
+      "user": "admin",
+      "id": 53
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "single",
+      "description": " \"2\"+3+4  的值为？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "\"27\""
+        },
+        {
+          "key": "b",
+          "description": "9"
+        },
+        {
+          "key": "c",
+          "description": "\"234\""
+        },
+        {
+          "key": "d",
+          "description": "\"9\""
+        }
+      ],
+      "user": "admin",
+      "id": 52
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "multiple",
+      "description": "以下哪些可以检测一个变量是一个String类型？",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "typeof(obj) === \"string\""
+        },
+        {
+          "key": "b",
+          "description": "typeof obj === \"string\""
+        },
+        {
+          "key": "c",
+          "description": "obj.constructor === String"
+        },
+        {
+          "key": "d",
+          "description": "obj instanceof String"
+        }
+      ],
+      "user": "admin",
+      "id": 51
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "以下过于Array数组对象的说法不正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "对数组里数据的排序可以用sort函数，如果排序效果非预期，可以给sort函数加一个排序函数的参数"
+        },
+        {
+          "key": "b",
+          "description": "reverse用于对数组数据的倒序排列"
+        },
+        {
+          "key": "c",
+          "description": "向数组的最后位置加一个新元素，可以用pop方法 "
+        },
+        {
+          "key": "d",
+          "description": "unshift方法用于向数组删除一个元素"
+        }
+      ],
+      "user": "admin",
+      "id": 50
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "请选择结果为真的表达式",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "null instanceof Object"
+        },
+        {
+          "key": "b",
+          "description": "null === undefined"
+        },
+        {
+          "key": "c",
+          "description": "null == undefined"
+        },
+        {
+          "key": "d",
+          "description": "NaN == NaN"
+        }
+      ],
+      "user": "admin",
+      "id": 49
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "single",
+      "description": "关于正则表达式声明6位数字的邮编，一下代码正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "var reg = /\\d6/;"
+        },
+        {
+          "key": "b",
+          "description": "var reg = \\d{6}\\;"
+        },
+        {
+          "key": "c",
+          "description": "var reg = /\\d{6}/; "
+        },
+        {
+          "key": "d",
+          "description": "var reg = new RegExp (“\\d{6}”);"
+        }
+      ],
+      "user": "admin",
+      "id": 48
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "judgment",
+      "description": "@import必须在样式规则之前，可以在css文件中引用其他文件",
+      "user": "admin",
+      "id": 106
+    },
+    {
+      "subject": "css",
+      "degree": "4",
+      "type": "multiple",
+      "description": "关于display: none;与visibility: hidden;的区别，以下说法正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "visibility: hidden;会让元素完全从渲染树中消失，渲染的时候不占据任何空间；display:none;不会让元素从渲染树消失，渲染师元素继续占据空间，只是内容不可见"
+        },
+        {
+          "key": "b",
+          "description": "visibility: hidden;是非继承属性，子孙节点消失由于元素从渲染树消失造成，通过修改子孙节点属性无法显示；display: none;是继承属性，子孙节点消失由于继承了hidden，通过设置display:block;可以让子孙节点显示"
+        },
+        {
+          "key": "c",
+          "description": "修改常规流中元素的display通常会造成文档重排。修改visibility属性只会造成本元素的重绘。"
+        },
+        {
+          "key": "d",
+          "description": "读屏器不会读取display: none;元素内容；会读取visibility: hidden;元素内容"
+        }
+      ],
+      "user": "admin",
+      "id": 105
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "judgment",
+      "description": "PUT可用于局部更新，PATCH只能全量更新。",
+      "user": "admin",
+      "id": 104
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "judgment",
+      "description": "PUT操作是幂等的，POST操作不是幂等的",
+      "user": "admin",
+      "id": 103
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "judgment",
+      "description": "PUT让服务器用请求的主体部分来创建一个由所请求的URL命名的新文档，如果那个URL已经存在的话，就用这个主体替代它",
+      "user": "admin",
+      "id": 102
+    },
+    {
+      "subject": "html",
+      "degree": "3",
+      "type": "judgment",
+      "description": "HTML5不基于SGML，所以不用指定DTD",
+      "user": "admin",
+      "id": 101
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "judgment",
+      "description": "任何对象都有toString()方法",
+      "user": "admin",
+      "id": 100
+    },
+    {
+      "subject": "js",
+      "degree": "3",
+      "type": "judgment",
+      "description": "typeof操作符可以判断出number、boolean、string、function、undefined和null；",
+      "user": "admin",
+      "id": 99
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "用typeof操作符获取对象的类型，它总是返回一个字符串",
+      "user": "admin",
+      "id": 98
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "judgment",
+      "description": "eval是把对应的字符串解析成JS代码并运行",
+      "user": "admin",
+      "id": 97
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "use strict模式下函数必须声明在顶层",
+      "user": "admin",
+      "id": 96
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "use strict模式下可以修改函数中的arguments",
+      "user": "admin",
+      "id": 95
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "use strict不能用with，也不能在意外的情况下给全局变量赋值",
+      "user": "admin",
+      "id": 94
+    },
+    {
+      "subject": "js",
+      "degree": "1",
+      "type": "judgment",
+      "description": "use strict可以消除Javascript语法的一些不合理、不严谨之处，减少一些怪异行为",
+      "user": "admin",
+      "id": 93
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "JSONP只支持GET请求而不支持POST等其它类型的HTTP请求",
+      "user": "admin",
+      "id": 92
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "document.write只能重绘整个页面, innerHTML可以重绘页面的一部分",
+      "user": "admin",
+      "id": 91
+    },
+    {
+      "subject": "css",
+      "degree": "1",
+      "type": "judgment",
+      "description": "rem是基于父级元素计算的倍数",
+      "user": "admin",
+      "id": 90
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "judgment",
+      "description": "在HTML中，与表格一样，表单也能嵌套。",
+      "user": "admin",
+      "id": 89
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "judgment",
+      "description": "HTML标记符通常不区分大小写",
+      "user": "admin",
+      "id": 88
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "judgment",
+      "description": "cookie数据会自动在浏览器和服务器之间传输。",
+      "user": "admin",
+      "id": 108
+    },
+    {
+      "subject": "html",
+      "degree": "2",
+      "type": "judgment",
+      "description": "同源必须满足协议相同，域名相同，端口相同。",
+      "user": "admin",
+      "id": 107
+    },
+    {
+      "subject": "html",
+      "degree": "4",
+      "type": "judgment",
+      "description": "Canvas提供的功能更原始, 适合像素处理, 动态渲染和大数据量绘制; SVG功能更完善, 适合静态图片显示, 高保真文档查看和打印的应用场景",
+      "user": "admin",
+      "id": 114
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "judgment",
+      "description": "cookie数据大小不能超过4k，而sessionStorage和localStorage则没有存储大小的限制",
+      "user": "admin",
+      "id": 113
+    },
+    {
+      "subject": "html",
+      "degree": "4",
+      "type": "judgment",
+      "description": "br hr img input link meta都属于空元素。",
+      "user": "admin",
+      "id": 112
+    },
+    {
+      "subject": "html",
+      "degree": "4",
+      "type": "judgment",
+      "description": "浏览器加载页面上引用的CSS、JS文件、图片时，是按顺序从上到下加载的，每个浏览器可以同时下载文件的个数不同，因此经常将静态文件放在不同的域名下，这样可以加快网站打开的速度。",
+      "user": "admin",
+      "id": 111
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "judgment",
+      "description": "arguments是所有函数中都包含的一个局部变量，是一个数组对象，对应函数调用时的实参。",
+      "user": "admin",
+      "id": 110
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "judgment",
+      "description": "cookie默认有效期为浏览器会话，一旦用户关闭浏览器，数据就丢失",
+      "user": "admin",
+      "id": 109
+    },
+    {
+      "subject": "js",
+      "degree": "2",
+      "type": "multiple",
+      "description": "以下哪些方法可以判断数组：",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "test instanceof Array"
+        },
+        {
+          "key": "b",
+          "description": "test.constructor == Array"
+        },
+        {
+          "key": "c",
+          "description": "Object.prototype.toString.call(test) == '[Object Array]'"
+        },
+        {
+          "key": "d",
+          "description": "Array.isArray(test)"
+        }
+      ],
+      "user": "admin",
+      "id": 115
+    },
+    {
+      "subject": "css",
+      "degree": "1",
+      "type": "multiple",
+      "description": "以下哪些属于块级元素",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "div"
+        },
+        {
+          "key": "b",
+          "description": "span"
+        },
+        {
+          "key": "c",
+          "description": "p"
+        },
+        {
+          "key": "d",
+          "description": "li"
+        }
+      ],
+      "user": "admin",
+      "id": 118
+    },
+    {
+      "subject": "js",
+      "degree": "4",
+      "type": "multiple",
+      "description": "以下可以防御CSRF攻击的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "验证 HTTP Referer 字段"
+        },
+        {
+          "key": "b",
+          "description": "在请求地址中添加 token 并验证"
+        },
+        {
+          "key": "c",
+          "description": "在 HTTP 头中自定义属性并验证"
+        },
+        {
+          "key": "d",
+          "description": "输入校验输出编码"
+        }
+      ],
+      "user": "admin",
+      "id": 119
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "multiple",
+      "description": "以下属于CSS伪元素的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": ":nth-child"
+        },
+        {
+          "key": "b",
+          "description": "before"
+        },
+        {
+          "key": "c",
+          "description": ":last-child"
+        },
+        {
+          "key": "d",
+          "description": ":first-line"
+        },
+        {
+          "key": "e",
+          "description": ":link"
+        }
+      ],
+      "user": "admin",
+      "id": 117
+    },
+    {
+      "subject": "css",
+      "degree": "2",
+      "type": "multiple",
+      "description": "以下属于CSS伪类的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": ":hover"
+        },
+        {
+          "key": "b",
+          "description": ":nth-child"
+        },
+        {
+          "key": "c",
+          "description": ":before"
+        },
+        {
+          "key": "d",
+          "description": ":after"
+        },
+        {
+          "key": "e",
+          "description": ":first-letter"
+        }
+      ],
+      "user": "admin",
+      "id": 116
+    },
+    {
+      "subject": "css",
+      "degree": "1",
+      "type": "multiple",
+      "description": "下列哪些是设置有关边框的属性",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "border-color"
+        },
+        {
+          "key": "b",
+          "description": "border-style"
+        },
+        {
+          "key": "c",
+          "description": "border-width"
+        },
+        {
+          "key": "d",
+          "description": "border-background"
+        }
+      ],
+      "user": "admin",
+      "id": 25
+    },
+    {
+      "subject": "html",
+      "degree": "1",
+      "type": "single",
+      "description": "查看如下 html 代码：\n    <div class=\"header\">\n        <a href=\"help.html\">帮助</a>\n    </div>\n    <p>\n        <a href=\"home.html\">主页</a>\n        <a href=\"user.html\">个人中心</a>\n    </p>\n现需要定义样式，实现：当鼠标移入”帮助“链接上时，文本”帮助“的字体大小变为 20pt，而其他链接不变。下列样式定义中，正确的是",
+      "answerItems": [
+        {
+          "key": "a",
+          "description": "a:hover {font-size:20pt;} "
+        },
+        {
+          "key": "b",
+          "description": "div header a:hover {font-size:20pt;} "
+        },
+        {
+          "key": "c",
+          "description": ".header a {font-size:20pt;} "
+        },
+        {
+          "key": "d",
+          "description": ".header a:hover {font-size:20pt;}"
+        }
+      ],
+      "user": "admin",
+      "id": 9
+    }
+  ]
+}

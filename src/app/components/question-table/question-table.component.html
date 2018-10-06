@@ -1,0 +1,43 @@
+<nz-table
+  class="actionTable"
+  #actionTable
+  nzBordered
+  [nzData]="displayData"
+  nzFrontPagination={true}
+  nzShowPagination={true}
+>
+  <thead (nzSortChange)="sortTable($event)">
+    <tr>
+      <th nzShowSort nzSortKey="id">ID</th>
+      <th nzShowSort nzSortKey="subject">归类</th>
+      <th nzShowSort nzSortKey="degree">难度</th>
+      <th nzShowSort nzSortKey="type">类型</th>
+      <th nzShowSort nzSortKey="user">提交人</th>
+      <th nzShowSort nzSortKey="status" *ngIf="showStatus">状态</th>
+      <th nzWidth="40%">问题描述</th>
+      <th nzWidth="10%">操作</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of actionTable.data">
+      <td>{{data.id}}</td>
+      <td>{{data.subject}}</td>
+      <td>{{data.degree}}</td>
+      <td>{{data.type}}</td>
+      <td>{{data.user}}</td>
+      <td *ngIf="showStatus">{{getStatus(data.status)}}</td>
+      <td>{{data.description}}</td>
+      <td class="operation">
+        <a (click)="checkQuestion(data.id)">查看</a>
+        <a
+          *ngIf="deleteQuestion"
+          nz-popconfirm
+          nzTitle="确认删除?"
+          (nzOnConfirm)="deleteQuestion(data.id)"
+        >
+          删除
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</nz-table>

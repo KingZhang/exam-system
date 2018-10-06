@@ -1,0 +1,16 @@
+<section class="questionPanel">
+  <panel-description [question]="question" [index]="index"></panel-description>
+  <section class="option">
+    <nz-radio-group *ngIf="question.type==='single'" [(ngModel)]="value" (ngModelChange)="onSingleChange($event)">
+      <ng-template ngFor let-item [ngForOf]="question.answerItems" let-i="index">
+          <label nz-radio nzValue={{item.key}}>{{item.description}}</label>
+      </ng-template>
+    </nz-radio-group>
+
+    <nz-checkbox-group
+      *ngIf="question.type==='multiple'"
+      [(ngModel)]="answerOptions"
+      (ngModelChange)="onMultipleChange($event)">
+    </nz-checkbox-group>
+  </section>
+</section>

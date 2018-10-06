@@ -1,0 +1,9 @@
+<section class="questionPanel">
+  <panel-description [question]="question" [index]="index"></panel-description>
+  <section class="option">
+    <nz-radio-group [(ngModel)]="value" (ngModelChange)="onValueChange($event)">
+      <label nz-radio nzValue="true">true</label>
+      <label nz-radio nzValue="false">false</label>
+    </nz-radio-group>
+  </section>
+</section>

@@ -1,0 +1,22 @@
+<div class="row">
+  <basic-label [required]="required" [labelStyle]="labelStyle" [text]="title"></basic-label>
+  <button
+    nz-button
+    nzType="primary"
+    (click)="addEvent()"
+  >
+    <i class="anticon anticon-plus"></i>
+    Add
+  </button>
+</div>
+<div class="dynRow row" *ngFor="let itemValue of controlValue; let index = index">
+  <label for="" [ngStyle]="labelStyle"></label>
+  <input
+    nz-input
+    [ngStyle]="inputStyle"
+    [(value)]="controlValue[index]"
+    (focusout)="onFocusout(index, $event.target.value)"
+    (input)="onItemChange(index, $event.target.value)"
+  >
+  <i class="anticon anticon-close delete" (click)="deleteItem(index)"></i>
+</div>

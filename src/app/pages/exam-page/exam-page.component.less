@@ -1,0 +1,93 @@
+.alertInfo {
+  margin-bottom: 2rem;
+}
+.examContent {
+  display: flex;
+  .questionList {
+    height: calc(100vh - 7rem);
+
+    /* border-right: 2px dashed #0050b3;
+    box-shadow: inset -3px 0px 0 0 #0050b3, inset -2px 0px 0 0 #0050b3,
+      1px 0px 0 0px #0050b3, 1px 0px 0 0 #0050b3; */
+
+    ul {
+      width: 155px;
+      height: 100%;
+      overflow-y: scroll;
+      display: inline-block;
+      text-align: left;
+      vertical-align: top;
+      background: rgba(0, 0, 0, 0.2);
+      color: rgba(255, 255, 255, 0.5);
+      border-radius: 5px;
+      padding: 1.5em;
+      margin: 2%;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+      background-image: radial-gradient(circle, #3c3b52 0%, #252233 80%);
+
+      li {
+        list-style: none;
+        position: relative;
+        padding: 0 0 0 2em;
+        margin: 0 0.5rem 0.5rem 10px;
+        -webkit-transition: .12s;
+        transition: .12s;
+
+        &:hover, &.selected, &.completed {
+          cursor: pointer;
+          color: #FFF;
+        }
+
+        &::before {
+          position: absolute;
+          content: '\2022';
+          font-family: Arial;
+          color: #FFF;
+          top: 0;
+          left: 0;
+          text-align: center;
+          font-size: 2em;
+          opacity: .5;
+          line-height: .75;
+          -webkit-transition: .5s;
+          transition: .5s;
+        }
+        &:hover::before, &.selected::before {
+          -webkit-transform: scale(2);
+          -ms-transform: scale(2);
+          transform: scale(2);
+          opacity: 1;
+          text-shadow: 0 0 4px;
+          -webkit-transition: .1s;
+          transition: .1s;
+        }
+        &.completed::before {
+          color: #95de64;
+          -webkit-transform: scale(2);
+          -ms-transform: scale(2);
+          transform: scale(2);
+          opacity: 1;
+          text-shadow: 0 0 4px;
+          -webkit-transition: .1s;
+          transition: .1s;
+        }
+      }
+
+      
+    }
+  }
+  .questionInfo {
+    position: relative;
+    overflow-y: scroll;
+    flex-grow: 1;
+    max-height: calc(100vh - 7rem);
+    .questionContent {
+      margin: 1rem 8rem;
+      height: calc(100% - 2rem);
+    }
+  }
+}
+
+.timer {
+  color: #000;
+}
