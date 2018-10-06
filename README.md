@@ -2,11 +2,11 @@
 基于Angular6实现的考试系统。
 
 ## 启动
-运行 `npm install`安装依赖
-运行 `npm run db` 启动数据服务
-运行 `npm run start` 启动平台
-访问`http://localhost:3366/`
-默认管理员帐号：admin
+* 运行 `npm install`安装依赖
+* 运行 `npm run db` 启动数据服务
+* 运行 `npm run start` 启动平台
+* 访问`http://localhost:3366/`
+* 默认管理员帐号：admin
 
 ## 考试界面
 ![Exam](/readme/exam.gif)
